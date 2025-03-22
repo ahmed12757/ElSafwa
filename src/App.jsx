@@ -5,12 +5,10 @@ import NizamAldirasih from "./page/NizamAldirasih/NizamAldirasih";
 import Almaehad from "./page/Almaehad/Almaehad";
 import ExamPage from "./page/ExamPage/ExamPage";
 import LmsPage from "./page/LmsPage/LmsPage";
-import Library from "./page/LibraryPage/LibraryPage";
 import EmailPage from "./page/EmailPage/EmailPage";
 import LibraryPage from "./page/LibraryPage/LibraryPage";
 import AlaqisamAleilamiih from "./page/AlaqisamAleilamiih/AlaqisamAleilamiih";
 import AlhaykalAltanzimiu from "./page/AlhaykalAltanzimiu/AlhaykalAltanzimiu";
-import Alianshita from "./page/Alianshita/Alianshita.JSX";
 import ContactUs from "./page/ContactUs/ContactUs";
 import WahdatAljawdih from "./page/WahdatAljawdih/WahdatAljawdih";
 import WahdatAlazimat from "./page/WahdatAlazimat/WahdatAlazimat";
@@ -22,6 +20,7 @@ import AljadawilAlaimtihanat from "./page/AljadawilAlaimtihanat/AljadawilAlaimti
 import NatayijAlaimtihanat from "./page/NatayijAlaimtihanat/NatayijAlaimtihanat";
 import AllNews from "./page/AllNews/AllNews";
 import NewsDetails from "./page/NewsDetails/NewsDetails";
+import Alianshita from "./page/Alianshita/Alianshita";
 
 function App() {
   const router = createBrowserRouter([
