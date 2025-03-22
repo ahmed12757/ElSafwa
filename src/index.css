@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+}
+@theme {
+  --color-primary-50: #f9c592;
+  --color-primary-100: #f7b97c;
+  --color-primary-200: #f6ad66;
+  --color-primary-300: #f5a150;
+  --color-primary-400: #f3963a;
+  --color-primary-500: #f28a24;
+  --color-primary-600: #da7c20;
+  --color-primary-700: #c26e1d;
+  --color-primary-800: #a96119;
+  --color-primary-900: #915316;
+  --color-primary-950: #794512;
+}
+body {
+  font-family: "Cairo Variable", sans-serif;
+}
+@layer utilities {
+  .spin-slow {
+    animation: spin 20s linear infinite;
+  }
+}
+html {
+  direction: rtl;
+}
