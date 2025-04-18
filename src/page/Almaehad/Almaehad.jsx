@@ -53,7 +53,7 @@ export default function Almaehad() {
   const duration = 1000;
   return (
     <>
-      <div className="  py-3 ">
+      <div className="  pt-3 ">
         <div className="w-full h-[90px] mb-16 "></div>
         <section className={`sec-1 ${section1 ? ` block` : `hidden`} `}>
           <div className="bg-gray-200 mb-5 ">
@@ -125,8 +125,16 @@ export default function Almaehad() {
                       modifier: 1,
                       slideShadows: true,
                     }}
+                    autoplay={{
+                      delay: 2000,
+                    }}
                     pagination={false}
-                    modules={[EffectCoverflow, Pagination, Navigation]}
+                    modules={[
+                      EffectCoverflow,
+                      Pagination,
+                      Navigation,
+                      Autoplay,
+                    ]}
                   >
                     <SwiperSlide
                       style={{
@@ -469,7 +477,10 @@ export default function Almaehad() {
                 }}
                 className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
               >
-                <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
+                <h1
+                  id="a3"
+                  className="container mx-auto text-white md:text-3xl text-lg  font-bold"
+                >
                   قبول الطلاب{" "}
                 </h1>
               </div>
@@ -743,7 +754,10 @@ export default function Almaehad() {
                 }}
                 className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
               >
-                <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
+                <h1
+                  id="a1"
+                  className="container mx-auto text-white md:text-3xl text-lg  font-bold"
+                >
                   الريادة الأكادميه
                 </h1>
               </div>
@@ -834,7 +848,10 @@ export default function Almaehad() {
           <div className="   ">
             <div className="bg-gray-200 mb-5">
               <div className="bg-gray-900 w-full py-3 px-4 cursor-pointer ">
-                <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
+                <h1
+                  id="a2"
+                  className="container mx-auto text-white md:text-3xl text-lg  font-bold"
+                >
                   قرارات المعادلة
                 </h1>
               </div>
@@ -892,62 +909,73 @@ export default function Almaehad() {
         <div className="bg-primary-400 py-7 flex items-center justify-center">
           <div className=" container flex items-center justify-center">
             <ul className="flex items-center justify-center flex-wrap gap-0.5 text-lg font-semibold">
-              <li
-                onClick={() => {
-                  setSection1(false);
-                  setSection4(false);
-                  setSection2(true);
-                  setSection3(false);
-                  setSection5(false);
-                }}
-                className={`py-7  px-3 cursor-pointer ${
-                  section2 ? `bg-blue-950 text-white` : `bg-gray-200`
-                }`}
-              >
-                دليل الريادة الأكاديمية
-              </li>
-              <li
-                onClick={() => {
-                  setSection1(false);
-                  setSection2(false);
-                  setSection4(false);
-                  setSection5(false);
-                  setSection3(true);
-                }}
-                className={`py-7  px-3 cursor-pointer ${
-                  section3 ? `bg-blue-950 text-white` : `bg-gray-200`
-                }`}
-              >
-                قواعد القبول
-              </li>
-              <li
-                onClick={() => {
-                  setSection1(false);
-                  setSection2(false);
-                  setSection3(false);
-                  setSection4(true);
-                  setSection5(false);
-                }}
-                className={`py-7  px-3 cursor-pointer ${
-                  section4 ? `bg-blue-950 text-white` : `bg-gray-200`
-                }`}
-              >
-                قرارات المعادلة
-              </li>
-              <li
-                onClick={() => {
-                  setSection1(false);
-                  setSection2(false);
-                  setSection3(false);
-                  setSection4(false);
-                  setSection5(true);
-                }}
-                className={`py-7  px-3 cursor-pointer ${
-                  section5 ? `bg-blue-950 text-white` : `bg-gray-200`
-                }`}
-              >
-                أعضاء هيئة التدريس
-              </li>
+              <a href="#a1">
+                <li
+                  onClick={() => {
+                    setSection1(false);
+                    setSection4(false);
+                    setSection2(true);
+                    setSection3(false);
+                    setSection5(false);
+                  }}
+                  className={`py-7  px-3 cursor-pointer ${
+                    section2 ? `bg-blue-950 text-white` : `bg-gray-200`
+                  }`}
+                >
+                  دليل الريادة الأكاديمية
+                </li>
+              </a>
+
+              <a href="#a2">
+                <li
+                  onClick={() => {
+                    setSection1(false);
+                    setSection2(false);
+                    setSection4(false);
+                    setSection5(false);
+                    setSection3(true);
+                  }}
+                  className={`py-7  px-3 cursor-pointer ${
+                    section3 ? `bg-blue-950 text-white` : `bg-gray-200`
+                  }`}
+                >
+                  قواعد القبول
+                </li>
+              </a>
+
+              <a href="#a3">
+                <li
+                  onClick={() => {
+                    setSection1(false);
+                    setSection2(false);
+                    setSection3(false);
+                    setSection4(true);
+                    setSection5(false);
+                  }}
+                  className={`py-7  px-3 cursor-pointer ${
+                    section4 ? `bg-blue-950 text-white` : `bg-gray-200`
+                  }`}
+                >
+                  قرارات المعادلة
+                </li>
+              </a>
+
+              <a href="#a4">
+                <li
+                  onClick={() => {
+                    setSection1(false);
+                    setSection2(false);
+                    setSection3(false);
+                    setSection4(false);
+                    setSection5(true);
+                  }}
+                  className={`py-7  px-3 cursor-pointer ${
+                    section5 ? `bg-blue-950 text-white` : `bg-gray-200`
+                  }`}
+                >
+                  أعضاء هيئة التدريس
+                </li>
+              </a>
             </ul>
           </div>
         </div>

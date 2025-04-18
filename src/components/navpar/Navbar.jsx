@@ -113,10 +113,12 @@ export default function Navbar() {
                   <i class="fa-solid fa-caret-up"></i>
                 ) : (
                   <i class="fa-solid fa-caret-down"></i>
-                )}{" "}
+                )}
                 <ul
-                  className={`lg:absolute  bg-primary-400 space-y-2 lg:group-hover/min1:py-3 w-full lg:w-[180px] lg:top-[61px]  lg:group-hover/min1:h-[190px]   overflow-hidden lg:group-hover/min1:transition-all lg:group-hover/min1:duration-300 duration-300 lg:delay-400 ${
-                    menuCase1 ? `h-[190px] py-3 mt-3 lg:mt-0 ` : `h-0`
+                  className={`lg:absolute  bg-primary-400 space-y-2 lg:group-hover/min1:py-3 w-full lg:w-[180px] lg:top-[61px]  lg:group-hover/min1:h-[140px]   overflow-hidden lg:group-hover/min1:transition-all lg:group-hover/min1:duration-300 duration-300 lg:delay-400 ${
+                    menuCase1
+                      ? `h-[140px] lg:h-0 lg:py-0 py-3 mt-3 lg:mt-0 `
+                      : `h-0 `
                   } `}
                 >
                   <NavLink
@@ -178,26 +180,6 @@ export default function Navbar() {
                   >
                     جداول الامتحانات
                   </NavLink>
-                  <p className="border-b border-dashed  border-primary-700 w-[85%] mx-auto "></p>
-                  <NavLink
-                    onClick={() => {
-                      setMenuCaseActive1(false);
-                      setMenuCaseActive2(true);
-                      setMenuCase1(false);
-                      setMenuCase2(false);
-                      setMenuCase(false);
-                    }}
-                    to={`/natayijAlaimtihanat`}
-                    className={({ isActive }) => {
-                      return `  px-3 w-full inline-block  ${
-                        isActive
-                          ? `text-black bg-primary-600 `
-                          : `hover:bg-primary-700 text-white hover:transition-colors duration-300 hover:duration-300`
-                      }`;
-                    }}
-                  >
-                    نتائج الامتحانات
-                  </NavLink>
                 </ul>
               </li>
 
@@ -220,7 +202,9 @@ export default function Navbar() {
                 )}
                 <ul
                   className={`lg:absolute  bg-primary-400 space-y-2  lg:group-hover/min1:py-3 w-full lg:w-[230px] lg:top-[61px]  lg:group-hover/min1:h-[235px]   overflow-hidden lg:group-hover/min1:transition-all lg:group-hover/min1:duration-300 duration-300 lg:delay-400 text-start ${
-                    menuCase2 ? `h-[235px] py-3 mt-3  lg:mt-0 ` : `h-0`
+                    menuCase2
+                      ? `h-[235px] lg:h-0 lg:py-0 py-3 mt-3  lg:mt-0 `
+                      : `h-0`
                   } `}
                 >
                   <NavLink

@@ -89,44 +89,60 @@ export default function Home() {
               className="flex items-center justify-center "
             >
               <SwiperSlide className=" bg-gray-300/50 flex items-center justify-center flex-col rounded-2xl overflow-hidden">
-                <NavLink to={`/emailPage`}>
+                <a
+                  href="https://gator4113.hostgator.com:2096/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="h-[150px] pt-10 text-5xl font-bold flex items-center justify-center">
                     <i class="fa-solid fa-envelope"></i>
                   </div>
                   <p className="bg-primary-500 w-full py-2 text-center text-xl font-bold flex items-center justify-center hover:text-white  hover:transition-colors hover:duration-300 duration-300">
                     البريـــد الإلكترونـــــي
                   </p>
-                </NavLink>
+                </a>
               </SwiperSlide>
               <SwiperSlide className=" bg-gray-300/50 flex items-center justify-center flex-col rounded-2xl overflow-hidden">
-                <NavLink to={`/libraryPage`}>
+                <a
+                  href="https://cloud.clz.com/alsafwalibrary/books"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="h-[150px] pt-10 text-5xl font-bold flex items-center justify-center">
                     <i class="fa-solid fa-book"></i>
                   </div>
                   <p className="bg-primary-500 w-full py-2 text-center text-xl font-bold flex items-center justify-center hover:text-white  hover:transition-colors hover:duration-300 duration-300">
                     المكتبــــــة الإلكترونيـــــة
                   </p>
-                </NavLink>
+                </a>
               </SwiperSlide>
               <SwiperSlide className=" bg-gray-300/50 flex items-center justify-center flex-col rounded-2xl overflow-hidden">
-                <NavLink to={`lmsPage`}>
+                <a
+                  href="https://lms.alsafwa.edu.eg/login/index.php"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="h-[150px] pt-10 text-5xl font-bold flex items-center justify-center">
                     <i class="fa-solid fa-circle-user"></i>
                   </div>
                   <p className="bg-primary-500 w-full py-2 text-center text-xl font-bold flex items-center justify-center hover:text-white  hover:transition-colors hover:duration-300 duration-300">
                     نظام إدارة التعلم (LMS)
                   </p>
-                </NavLink>
+                </a>
               </SwiperSlide>
               <SwiperSlide className=" bg-gray-300/50 flex items-center justify-center flex-col rounded-2xl overflow-hidden">
-                <NavLink to={`/examPage`}>
+                <a
+                  href="https://result.alsafwa.edu.eg/Results.php"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div className="h-[150px] pt-10 text-5xl font-bold flex items-center justify-center">
                     <i class="fa-regular fa-file"></i>
                   </div>
                   <p className="bg-primary-500 w-full py-2 text-center text-xl font-bold flex items-center justify-center hover:text-white  hover:transition-colors hover:duration-300 duration-300">
                     نتائج الامتحانات
                   </p>
-                </NavLink>
+                </a>
               </SwiperSlide>
             </Swiper>
           </div>

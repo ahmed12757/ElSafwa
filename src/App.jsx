@@ -17,7 +17,7 @@ import WahdatAlqias from "./page/WahdatAlqias/WahdatAlqias";
 import WahdatAlkhiriyjin from "./page/WahdatAlkhiriyjin/WahdatAlkhiriyjin";
 import AljadawilAldirasia from "./page/AljadawilAldirasia/AljadawilAldirasia";
 import AljadawilAlaimtihanat from "./page/AljadawilAlaimtihanat/AljadawilAlaimtihanat";
-import NatayijAlaimtihanat from "./page/NatayijAlaimtihanat/NatayijAlaimtihanat";
+
 import AllNews from "./page/AllNews/AllNews";
 import NewsDetails from "./page/NewsDetails/NewsDetails";
 import Alianshita from "./page/Alianshita/Alianshita";
@@ -43,7 +43,6 @@ function App() {
         { path: "wahdatAlkhiriyjin", element: <WahdatAlkhiriyjin /> },
         { path: "aljadawilAldirasia", element: <AljadawilAldirasia /> },
         { path: "aljadawilAlaimtihanat", element: <AljadawilAlaimtihanat /> },
-        { path: "natayijAlaimtihanat", element: <NatayijAlaimtihanat /> },
         { path: "examPage", element: <ExamPage /> },
         { path: "allNews", element: <AllNews /> },
         { path: "newsDetails", element: <NewsDetails /> },
