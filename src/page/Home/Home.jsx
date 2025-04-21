@@ -253,36 +253,61 @@ export default function Home() {
               }}
               navigation={true}
               breakpoints={{
-                620: {
+                490: {
                   slidesPerView: 2,
                   spaceBetween: 20,
                 },
 
-                1024: {
+                768: {
                   slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 4,
                   spaceBetween: 30,
+                },
+                1124: {
+                  slidesPerView: 5,
+                  spaceBetween: 20,
                 },
               }}
               modules={[Navigation, Pagination, Autoplay]}
               className="flex items-center justify-center  "
             >
               <SwiperSlide>
-                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
-                  <div className="w-full overflow-hidden my-0  ">
+                <div className=" space-y-5  w-full   min-h-[450px] bg-gray-100  mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                  <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User1}
                       alt=""
-                      className="w-full inline-block object-cover "
+                      className=" inline-block object-fit-cover h-[400px] w-full"
                     />
                   </div>
-                  <div className=" px-2 py-2 flex justify-center flex-col font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
-                    <h1 className="">
+                  <div className=" px-4 py-4 flex justify-center flex-col  font-bold text-xl">
+                    <span className="text-primary-500"> وكيل المعهد </span>{" "}
+                    <h1 className="">د.ياسر حسن</h1>
+                    <p className="pt-3">
+                      بريد العميد:{" "}
+                      <span className="text-primary-500">******</span>
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                  <div className="w-full overflow-hidden my-0   ">
+                    <img
+                      src={User1}
+                      alt=""
+                      className=" inline-block object-fit-cover h-[400px] w-full "
+                    />
+                  </div>
+                  <div className=" px-4 py-4 flex justify-center flex-col  font-bold text-lg">
+                    <span className="text-primary-500">
                       {" "}
-                      <span className="text-primary-500">
-                        رئيس مجلس الإدارة:
-                      </span>{" "}
-                      أ. خالد سيف{" "}
-                    </h1>
+                      أميــن عــــام المعـــــهد{" "}
+                    </span>{" "}
+                    <h1 className=""> أ.مروان سيف</h1>
                     <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
@@ -291,40 +316,17 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
-                  <div className="w-full overflow-hidden my-0  ">
-                    <img
-                      src={User1}
-                      alt=""
-                      className="w-full inline-block object-cover "
-                    />
-                  </div>
-                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
-                    <h1 className="">
-                      <span className="text-primary-500"> وكيل المعهد: </span>{" "}
-                      د.ياسر حسن
-                    </h1>
-                    <p className="pt-3">
-                      بريد العميد:{" "}
-                      <span className="text-primary-500">******</span>
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
-                  <div className="w-full overflow-hidden my-0  ">
+                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                  <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User5}
                       alt=""
-                      className="w-full inline-block object-cover "
+                      className=" inline-block object-fit-cover h-[400px] w-full "
                     />
                   </div>
-                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
-                    <h1 className="">
-                      <span className="text-primary-500"> عميد المعهد : </span>{" "}
-                      أ.د. محمد أحمد خفاجة
-                    </h1>
+                  <div className=" px-4 py-4 flex justify-center flex-col   font-bold text-lg">
+                    <span className="text-primary-500"> عميد المعهد </span>{" "}
+                    <h1 className="">أ.د. محمد أحمد خفاجة</h1>
                     <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
@@ -333,21 +335,20 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
-                  <div className="w-full overflow-hidden my-0  ">
+                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                  <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User1}
                       alt=""
-                      className="w-full inline-block object-cover "
+                      className=" inline-block object-fit-cover h-[400px] w-full "
                     />
                   </div>
-                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
-                    <h1 className="">
-                      <span className="text-primary-500">
-                        عضو مجلس الإدارة :{" "}
-                      </span>{" "}
-                      أ.د رأفت الكمار
-                    </h1>
+                  <div className=" px-4 py-4 flex justify-center flex-col   font-bold text-lg">
+                    <span className="text-primary-500">
+                      {" "}
+                      رئيس مجلس الإدارة{" "}
+                    </span>{" "}
+                    <h1 className="">أ. خالد سيف</h1>
                     <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
@@ -356,18 +357,17 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
-                  <div className="w-full overflow-hidden my-0  ">
-                    <img src={User1} alt="" className="w-full inline-block " />
+                <div className=" space-y-5  w-full min-h-[450px]  bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                  <div className="w-full overflow-hidden my-0   ">
+                    <img
+                      src={User1}
+                      alt=""
+                      className=" inline-block object-fit-cover h-[400px] w-full "
+                    />
                   </div>
-                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
-                    <h1 className="">
-                      <span className="text-primary-500">
-                        {" "}
-                        أميــن عــــام المعـــــهد:{" "}
-                      </span>{" "}
-                      أ.مروان سيف{" "}
-                    </h1>
+                  <div className=" px-4 py-4 flex justify-center flex-col   font-bold text-lg">
+                    <span className="text-primary-500"> عضو مجلس الإدارة </span>{" "}
+                    <h1 className=""> أ.د رأفت الكمار</h1>
                     <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>

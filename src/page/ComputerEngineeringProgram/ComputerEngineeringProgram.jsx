@@ -50,7 +50,7 @@ export default function ComputerEngineeringProgram() {
   return (
     <>
       <section className={`sec-1 px-2 `}>
-        <div className="w-full h-[90px] mb-16 "></div>
+        <div className="w-full h-[90px] lg:mb-15 mb-2 "></div>
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
             onClick={() => {

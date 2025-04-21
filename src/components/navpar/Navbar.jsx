@@ -14,7 +14,7 @@ export default function Navbar() {
       style={{
         transition: `all ${duration}ms `,
       }}
-      className={` bg-primary-500/70 rounded-4xl container lg:pt-10 lg:pb-5 border-8 border-primary-700/50 mx-auto px-4 absolute top-10 right-0 left-0 z-50 overflow-hidden lg:overflow-visible  ${
+      className={` bg-primary-500/70 rounded-4xl container lg:pt-10 lg:pb-5 border-8 border-primary-700/50 mx-auto px-4 absolute lg:top-10 top-1 right-0 left-0 z-50 overflow-hidden lg:overflow-visible  ${
         menuCase
           ? ` ${menuCase1 ? `h-[605px]` : `h-[405px]`} ${
               menuCase2 ? `h-[650px]` : `h-[405px]`

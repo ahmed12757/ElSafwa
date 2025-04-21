@@ -9,8 +9,8 @@ export default function AljadawilAldirasia() {
   const [MenuCase6, setMenuCase6] = useState(false);
 
   return (
-    <div className="  pt-3 ">
-      <div className="w-full h-[90px] mb-16 "></div>
+    <div className="  ">
+      <div className="w-full h-[90px] lg:mb-15 mb-2 "></div>
       <section className={`sec-1 `}>
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
