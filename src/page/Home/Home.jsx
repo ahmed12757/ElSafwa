@@ -8,6 +8,10 @@ import Image5 from "../../images/image_1649764910_zFZYkDimjdZFAuMMW3DhnTKMmPKNQr
 import Image6 from "../../images/بحث-عن-الحاسوب-فوائده-وأضراره-جاهز-للتحميل.jpg";
 import Image7 from "../../images/1.jpg";
 import User1 from "../../images/WhatsApp-Image-2024-01-03-at-4.56.56-PM.jpeg";
+import User2 from "../../images/1.png";
+import User3 from "../../images/2.jpg";
+import User4 from "../../images/3.png";
+import User5 from "../../images/WhatsApp-Image-2022-11-12-at-12.48.34-PM-206x300.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -245,7 +249,7 @@ export default function Home() {
               spaceBetween={20}
               loop={true}
               autoplay={{
-                delay: 5000,
+                delay: 9000,
               }}
               navigation={true}
               breakpoints={{
@@ -258,30 +262,28 @@ export default function Home() {
                   slidesPerView: 3,
                   spaceBetween: 30,
                 },
-                1080: {
-                  slidesPerView: 4,
-                  spaceBetween: 30,
-                },
-
-                1124: {
-                  slidesPerView: 5,
-                  spaceBetween: 40,
-                },
               }}
               modules={[Navigation, Pagination, Autoplay]}
               className="flex items-center justify-center  "
             >
               <SwiperSlide>
-                <div className=" space-y-5 w-fit mx-auto shadow-lg rounded-3xl overflow-hidden flex items-center justify-center flex-col hover:scale-[1.1] hover:transition-all hover:duration-300 duration-300">
-                  <div className="w-[200px] h-[250px] overflow-hidden rounded-full ">
-                    <img src={User1} alt="" className="w-full" />
+                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
+                  <div className="w-full overflow-hidden my-0  ">
+                    <img
+                      src={User1}
+                      alt=""
+                      className="w-full inline-block object-cover "
+                    />
                   </div>
-                  <div className=" px-2 py-2 mb-4 space-y-4">
-                    <h1 className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
-                      <span className="text-primary-500"> وكيل المعهد:</span>{" "}
-                      د.ياسر حسن
+                  <div className=" px-2 py-2 flex justify-center flex-col font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
+                    <h1 className="">
+                      {" "}
+                      <span className="text-primary-500">
+                        رئيس مجلس الإدارة:
+                      </span>{" "}
+                      أ. خالد سيف{" "}
                     </h1>
-                    <p className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
+                    <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
                     </p>
@@ -289,16 +291,20 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5 w-fit mx-auto shadow-lg rounded-3xl overflow-hidden flex items-center justify-center flex-col hover:scale-[1.1] hover:transition-all hover:duration-300 duration-300">
-                  <div className="w-[200px] h-[250px] overflow-hidden rounded-full ">
-                    <img src={User1} alt="" className="w-full" />
+                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
+                  <div className="w-full overflow-hidden my-0  ">
+                    <img
+                      src={User1}
+                      alt=""
+                      className="w-full inline-block object-cover "
+                    />
                   </div>
-                  <div className=" px-2 py-2 mb-4 space-y-4">
-                    <h1 className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
-                      <span className="text-primary-500"> وكيل المعهد:</span>{" "}
+                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
+                    <h1 className="">
+                      <span className="text-primary-500"> وكيل المعهد: </span>{" "}
                       د.ياسر حسن
                     </h1>
-                    <p className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
+                    <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
                     </p>
@@ -306,16 +312,20 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5 w-fit mx-auto shadow-lg rounded-3xl overflow-hidden flex items-center justify-center flex-col hover:scale-[1.1] hover:transition-all hover:duration-300 duration-300">
-                  <div className="w-[200px] h-[250px] overflow-hidden rounded-full ">
-                    <img src={User1} alt="" className="w-full" />
+                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
+                  <div className="w-full overflow-hidden my-0  ">
+                    <img
+                      src={User5}
+                      alt=""
+                      className="w-full inline-block object-cover "
+                    />
                   </div>
-                  <div className=" px-2 py-2 mb-4 space-y-4">
-                    <h1 className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
-                      <span className="text-primary-500"> وكيل المعهد:</span>{" "}
-                      د.ياسر حسن
+                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
+                    <h1 className="">
+                      <span className="text-primary-500"> عميد المعهد : </span>{" "}
+                      أ.د. محمد أحمد خفاجة
                     </h1>
-                    <p className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
+                    <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
                     </p>
@@ -323,16 +333,22 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5 w-fit mx-auto shadow-lg rounded-3xl overflow-hidden flex items-center justify-center flex-col hover:scale-[1.1] hover:transition-all hover:duration-300 duration-300">
-                  <div className="w-[200px] h-[250px] overflow-hidden rounded-full ">
-                    <img src={User1} alt="" className="w-full" />
+                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
+                  <div className="w-full overflow-hidden my-0  ">
+                    <img
+                      src={User1}
+                      alt=""
+                      className="w-full inline-block object-cover "
+                    />
                   </div>
-                  <div className=" px-2 py-2 mb-4 space-y-4">
-                    <h1 className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
-                      <span className="text-primary-500"> وكيل المعهد:</span>{" "}
-                      د.ياسر حسن
+                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
+                    <h1 className="">
+                      <span className="text-primary-500">
+                        عضو مجلس الإدارة :{" "}
+                      </span>{" "}
+                      أ.د رأفت الكمار
                     </h1>
-                    <p className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
+                    <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
                     </p>
@@ -340,16 +356,19 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5 w-fit mx-auto shadow-lg rounded-3xl overflow-hidden flex items-center justify-center flex-col hover:scale-[1.1] hover:transition-all hover:duration-300 duration-300">
-                  <div className="w-[200px] h-[250px] overflow-hidden rounded-full ">
-                    <img src={User1} alt="" className="w-full" />
+                <div className=" space-y-5 relative w-full h-[500px]  mx-auto shadow-lg group/card1 rounded-2xl overflow-hidden flex items-center justify-center my-0">
+                  <div className="w-full overflow-hidden my-0  ">
+                    <img src={User1} alt="" className="w-full inline-block " />
                   </div>
-                  <div className=" px-2 py-2 mb-4 space-y-4">
-                    <h1 className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
-                      <span className="text-primary-500"> وكيل المعهد:</span>{" "}
-                      د.ياسر حسن
+                  <div className=" px-2 py-2 flex justify-center flex-col    font-medium text-2xl bg-gray-300/70  absolute -bottom-50 group-hover/card1:bottom-0 group-hover/card1:transition-all group-hover/card1:duration-300 duration-300  group-hover/card1:w-full group-hover/card1:h-full">
+                    <h1 className="">
+                      <span className="text-primary-500">
+                        {" "}
+                        أميــن عــــام المعـــــهد:{" "}
+                      </span>{" "}
+                      أ.مروان سيف{" "}
                     </h1>
-                    <p className="font-medium text-2xl xl:text-[18px] xl:font-semibold">
+                    <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>
                     </p>
@@ -371,7 +390,10 @@ export default function Home() {
                 المعتمدة التي تخدم الطلاب
               </p>
               <div className="grid grid-cols-12 gap-5">
-                <div className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300">
+                <NavLink
+                  to={"communicationsEngineeringProgram"}
+                  className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300"
+                >
                   <img
                     src={Image7}
                     alt=""
@@ -380,8 +402,11 @@ export default function Home() {
                   <h3 className="text-xl text-center bg-white py-4 font-semibold text-primary-400 hover:text-primary-600 hover:transition-colors hover:duration-300 duration-300">
                     برنامج هندسة الاتصالات
                   </h3>
-                </div>
-                <div className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300">
+                </NavLink>
+                <NavLink
+                  to={"computerEngineeringProgram"}
+                  className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300"
+                >
                   <img
                     src={Image6}
                     alt=""
@@ -390,8 +415,11 @@ export default function Home() {
                   <h3 className="text-xl text-center bg-white py-4 font-semibold text-primary-400 hover:text-primary-600 hover:transition-colors hover:duration-300 duration-300">
                     برنامج هندسة الحاسبات
                   </h3>
-                </div>
-                <div className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300">
+                </NavLink>
+                <NavLink
+                  to={"architectureProgram"}
+                  className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300"
+                >
                   <img
                     src={Image5}
                     alt=""
@@ -400,8 +428,11 @@ export default function Home() {
                   <h3 className="text-xl text-center bg-white py-4 font-semibold text-primary-400 hover:text-primary-600 hover:transition-colors hover:duration-300 duration-300">
                     برنامج الهندسة المعمارية
                   </h3>
-                </div>
-                <div className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300">
+                </NavLink>
+                <NavLink
+                  to={"civilEngineeringProgram"}
+                  className=" col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300"
+                >
                   <img
                     src={Image4}
                     alt=""
@@ -410,7 +441,7 @@ export default function Home() {
                   <h3 className="text-xl text-center bg-white py-4 font-semibold text-primary-400 hover:text-primary-600 hover:transition-colors hover:duration-300 duration-300">
                     برنامج الهندسة المدنية
                   </h3>
-                </div>
+                </NavLink>
               </div>
             </div>
           </div>

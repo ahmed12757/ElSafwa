@@ -2,16 +2,16 @@ import React from "react";
 
 export default function NizamAldirasih() {
   return (
-    <div className="  pt-3 ">
+    <div className="   ">
       <div className="w-full h-[90px] mb-16 "></div>
-      <div className="bg-gray-200 py-4 ">
+      <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
         <div className="bg-gray-900 w-full py-3 px-4 cursor-pointer ">
           <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
             الدراسة والإمتحانات :
           </h1>
         </div>
-        <div className="container mx-auto bg-gray-200">
-          <div className={` gap-x-3  overflow-hidden  transition-all `}>
+        <div className="container mx-auto ">
+          <div className={` gap-x-3  overflow-hidden  py-2 `}>
             <div className="  py-2 px-4 font-medium text-lg h-fit">
               <div className=" space-y-4 text-xl pt-2">
                 <p>

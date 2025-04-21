@@ -50,13 +50,13 @@ export default function Almaehad() {
   const [section3, setSection3] = useState(false);
   const [section4, setSection4] = useState(false);
   const [section5, setSection5] = useState(false);
-  const duration = 1000;
+
   return (
     <>
       <div className="  pt-3 ">
         <div className="w-full h-[90px] mb-16 "></div>
         <section className={`sec-1 ${section1 ? ` block` : `hidden`} `}>
-          <div className="bg-gray-200 mb-5 ">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
             <div
               onClick={() => {
                 setMenuCase1(!MenuCase1);
@@ -73,13 +73,8 @@ export default function Almaehad() {
             </div>
             <div className="container mx-auto ">
               <div
-                style={{
-                  duration: `${duration}sm`,
-                }}
-                className={` grid grid-cols-12 gap-x-3  overflow-hidden  transition-all ${
-                  MenuCase1
-                    ? `xl:h-[450px] md:h-[690px] sm:h-[750px] h-[1100px] `
-                    : `h-0`
+                className={` grid grid-cols-12 gap-x-3  overflow-hidden duration-500  transition-all ${
+                  MenuCase1 ? `py-4  max-h-[9999px] ` : `max-h-0`
                 } `}
               >
                 <div className="xl:col-span-7 lg:col-span-6 lg:pt-14 col-span-12  py-2 px-4 font-medium text-lg h-fit">
@@ -214,7 +209,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className="bg-gray-200 mb-5">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -229,15 +224,10 @@ export default function Almaehad() {
                 رؤيــة و رسالة المعهد
               </h1>
             </div>
-            <div className="container mx-auto bg-gray-200">
+            <div className="container mx-auto  ">
               <div
-                style={{
-                  duration: `${duration}sm`,
-                }}
-                className={` gap-x-3  overflow-hidden  transition-all ${
-                  MenuCase4
-                    ? ` xl:h-[260px] lg:h-[290px] md:h-[310px] sm:h-[360px] h-[560px] `
-                    : `h-0`
+                className={` gap-x-3  overflow-hidden duration-500  transition-all ${
+                  MenuCase4 ? `  max-h-[9999px] ` : `max-h-0`
                 } `}
               >
                 <div className="  py-2 px-4 font-medium text-lg h-fit">
@@ -263,7 +253,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className="bg-gray-200 mb-5">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -278,13 +268,10 @@ export default function Almaehad() {
                 شروط الإلتحاق بالبرنامج الدراسي الهندسي :-
               </h1>
             </div>
-            <div className="container mx-auto bg-gray-200">
+            <div className="container mx-auto ">
               <div
-                style={{
-                  duration: `${duration}sm`,
-                }}
-                className={` gap-x-3  overflow-hidden  transition-all ${
-                  MenuCase2 ? ` md:h-[230px] sm:h-[270px] h-[380px] ` : `h-0`
+                className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                  MenuCase2 ? `  max-h-[9999px] ` : `max-h-0`
                 } `}
               >
                 <div className="  py-2 px-4 font-medium text-lg h-fit">
@@ -321,7 +308,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className="bg-gray-200 mb-5">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -336,13 +323,10 @@ export default function Almaehad() {
                 الدرجات العلمية التي يمنحها المعهد :-
               </h1>
             </div>
-            <div className="container mx-auto bg-gray-200">
+            <div className="container mx-auto ">
               <div
-                style={{
-                  duration: `${duration}sm`,
-                }}
-                className={` gap-x-3  overflow-hidden  transition-all ${
-                  MenuCase3 ? ` md:h-[300px] sm:h-[330px] h-[480px] ` : `h-0`
+                className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                  MenuCase3 ? `  max-h-[9999px] ` : `max-h-0`
                 } `}
               >
                 <div className="  py-2 px-4 font-medium text-lg h-fit ">
@@ -388,7 +372,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className="bg-gray-200 mb-5">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -403,15 +387,10 @@ export default function Almaehad() {
                 الدرجات العلمية التي يمنحها المعهد :-
               </h1>
             </div>
-            <div className="container mx-auto bg-gray-200">
+            <div className="container mx-auto ">
               <div
-                style={{
-                  duration: `${duration}sm`,
-                }}
-                className={` gap-x-3  overflow-hidden  transition-all ${
-                  MenuCase5
-                    ? ` lg:h-[400px] md:h-[430px] sm:h-[490px] h-[680px] `
-                    : `h-0`
+                className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                  MenuCase5 ? `  max-h-[9999px] ` : `max-h-0`
                 } `}
               >
                 <div className="  py-2 px-4 font-medium text-lg h-fit ">
@@ -468,7 +447,7 @@ export default function Almaehad() {
 
         <section className={`sec-4 ${section4 ? ` block` : `hidden`}`}>
           <div className="">
-            <div className="bg-gray-200 mb-5">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
               <div
                 onClick={() => {
                   setMenuCase21(!MenuCase21);
@@ -484,15 +463,10 @@ export default function Almaehad() {
                   قبول الطلاب{" "}
                 </h1>
               </div>
-              <div className="container mx-auto bg-gray-200">
+              <div className="container mx-auto ">
                 <div
-                  style={{
-                    duration: `${duration}sm`,
-                  }}
-                  className={` gap-x-3  overflow-hidden  transition-all ${
-                    MenuCase21
-                      ? ` lg:h-[480px] md:h-[600px] sm:h-[700px] h-[1020px] `
-                      : `h-0`
+                  className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                    MenuCase21 ? `  max-h-[9999px] ` : `max-h-0`
                   } flex items-center justify-center `}
                 >
                   <div className="  py-2 px-4 font-medium text-lg h-fit">
@@ -562,7 +536,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className="bg-gray-200 mb-5">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
               <div
                 onClick={() => {
                   setMenuCase21(false);
@@ -575,15 +549,10 @@ export default function Almaehad() {
                   تحويل الطلاب ونقل قيدهم{" "}
                 </h1>
               </div>
-              <div className="container mx-auto bg-gray-200">
+              <div className="container mx-auto ">
                 <div
-                  style={{
-                    duration: `${duration}sm`,
-                  }}
-                  className={` gap-x-3  overflow-hidden  transition-all ${
-                    MenuCase22
-                      ? ` lg:h-[700px] md:h-[1030px] sm:h-[1240px] h-[2020px] `
-                      : `h-0`
+                  className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                    MenuCase22 ? `  max-h-[9999px] ` : `max-h-0`
                   } `}
                 >
                   <div className="  py-2 px-4 font-medium text-lg h-fit ">
@@ -679,7 +648,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className="bg-gray-200 mb-5">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
               <div
                 onClick={() => {
                   setMenuCase21(false);
@@ -692,15 +661,10 @@ export default function Almaehad() {
                   يجوز قيد وإعادة قيد الطالب في الحالات الآتية:-{" "}
                 </h1>
               </div>
-              <div className="container mx-auto bg-gray-200">
+              <div className="container mx-auto ">
                 <div
-                  style={{
-                    duration: `${duration}sm`,
-                  }}
-                  className={` gap-x-3  overflow-hidden  transition-all ${
-                    MenuCase23
-                      ? ` lg:h-[280px] md:h-[350px] sm:h-[400px] h-[630px] `
-                      : `h-0`
+                  className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                    MenuCase23 ? `  max-h-[9999px] ` : `max-h-0`
                   } `}
                 >
                   <div className="  py-2 px-4 font-medium text-lg h-fit ">
@@ -745,7 +709,7 @@ export default function Almaehad() {
 
         <section className={`sec-2 ${section2 ? ` block` : `hidden`}`}>
           <div className="   ">
-            <div className="bg-gray-200 mb-5">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
               <div
                 onClick={() => {
                   setMenuCase31(!MenuCase31);
@@ -761,13 +725,10 @@ export default function Almaehad() {
                   الريادة الأكادميه
                 </h1>
               </div>
-              <div className="container mx-auto bg-gray-200">
+              <div className="container mx-auto ">
                 <div
-                  style={{
-                    duration: `${duration}sm`,
-                  }}
-                  className={` gap-x-3  overflow-hidden  transition-all ${
-                    MenuCase31 ? ` h-fit ` : `h-0`
+                  className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                    MenuCase31 ? `  max-h-[9999px] ` : `max-h-0`
                   } flex items-center justify-center `}
                 >
                   <div className="  py-2 px-4 font-medium text-lg h-fit">
@@ -779,7 +740,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className="bg-gray-200 mb-5">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
               <div
                 onClick={() => {
                   setMenuCase32(!MenuCase32);
@@ -793,13 +754,10 @@ export default function Almaehad() {
                   مهام الريادة الأكادميه
                 </h1>
               </div>
-              <div className="container mx-auto bg-gray-200">
+              <div className="container mx-auto ">
                 <div
-                  style={{
-                    duration: `${duration}sm`,
-                  }}
-                  className={` gap-x-3  overflow-hidden  transition-all ${
-                    MenuCase32 ? ` h-fit ` : `h-0`
+                  className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                    MenuCase32 ? `  max-h-[9999px] ` : `max-h-0`
                   } flex items-center justify-center `}
                 >
                   <div className="  py-2 px-4 font-medium text-lg h-fit">
@@ -811,7 +769,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className="bg-gray-200 mb-5">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
               <div
                 onClick={() => {
                   setMenuCase33(!MenuCase33);
@@ -824,13 +782,10 @@ export default function Almaehad() {
                   جدول الريادة الأكادميه
                 </h1>
               </div>
-              <div className="container mx-auto bg-gray-200">
+              <div className="container mx-auto ">
                 <div
-                  style={{
-                    duration: `${duration}sm`,
-                  }}
-                  className={` gap-x-3  overflow-hidden  transition-all ${
-                    MenuCase33 ? ` h-fit ` : `h-0`
+                  className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                    MenuCase33 ? `  max-h-[9999px] ` : `max-h-0`
                   } flex items-center justify-center `}
                 >
                   <div className="  py-2 px-4 font-medium text-lg h-fit">
@@ -846,7 +801,7 @@ export default function Almaehad() {
 
         <section className={`sec-3 ${section3 ? ` block` : `hidden`}`}>
           <div className="   ">
-            <div className="bg-gray-200 mb-5">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
               <div className="bg-gray-900 w-full py-3 px-4 cursor-pointer ">
                 <h1
                   id="a2"
@@ -855,11 +810,8 @@ export default function Almaehad() {
                   قرارات المعادلة
                 </h1>
               </div>
-              <div className="container mx-auto bg-gray-200">
+              <div className="container mx-auto ">
                 <div
-                  style={{
-                    duration: `${duration}sm`,
-                  }}
                   className={` gap-x-3  overflow-hidden  transition-all h-fit `}
                 >
                   <div className="  py-2 px-4 font-medium text-lg h-fit">

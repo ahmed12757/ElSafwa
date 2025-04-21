@@ -48,10 +48,9 @@ export default function Footer() {
       </div>
       <div className="bg-gray-950 px-4 py-3 text-white text-center">
         <p>
-          معهد الضفوة العالي للهندسة{" "}
-          <span>
-            <i class="fa-regular fa-copyright"></i> Copyright
-          </span>{" "}
+          <span>جميع الحقوق محفوظة </span>
+          <i class="fa-regular fa-copyright"></i>{" "}
+          <span> معهد الصفوة العالي للهندسة </span>
         </p>
         <p className="text-lg font-semibold">
           <span>Created By :</span> Eng/ Ali Hanafy

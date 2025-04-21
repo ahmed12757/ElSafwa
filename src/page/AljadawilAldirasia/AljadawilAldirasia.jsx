@@ -7,12 +7,12 @@ export default function AljadawilAldirasia() {
   const [MenuCase4, setMenuCase4] = useState(false);
   const [MenuCase5, setMenuCase5] = useState(false);
   const [MenuCase6, setMenuCase6] = useState(false);
-  const duration = 1000;
+
   return (
     <div className="  pt-3 ">
       <div className="w-full h-[90px] mb-16 "></div>
       <section className={`sec-1 `}>
-        <div className="bg-gray-200 mb-5 ">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
             onClick={() => {
               setMenuCase1(!MenuCase1);
@@ -30,11 +30,8 @@ export default function AljadawilAldirasia() {
           </div>
           <div className="container mx-auto ">
             <div
-              style={{
-                duration: `${duration}sm`,
-              }}
-              className={`  gap-x-3  overflow-hidden  transition-all ${
-                MenuCase1 ? ` h-[300px] ` : `h-0`
+              className={`  gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase1 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
               <div className="grid grid-cols-11 px-1">
@@ -107,7 +104,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className="bg-gray-200 mb-5">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -123,13 +120,10 @@ export default function AljadawilAldirasia() {
               جداول هندسة الالكترونيات والاتصالات والحاسبات
             </h1>
           </div>
-          <div className="container mx-auto bg-gray-200">
+          <div className="container mx-auto ">
             <div
-              style={{
-                duration: `${duration}sm`,
-              }}
-              className={` gap-x-3  overflow-hidden  transition-all ${
-                MenuCase6 ? ` h-[690px] ` : `h-0`
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase6 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
               <div className="py-4  ">
@@ -279,7 +273,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className="bg-gray-200 mb-5">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -295,13 +289,10 @@ export default function AljadawilAldirasia() {
               جداول هندسة الالكترونيات والاتصالات
             </h1>
           </div>
-          <div className="container mx-auto bg-gray-200">
+          <div className="container mx-auto ">
             <div
-              style={{
-                duration: `${duration}sm`,
-              }}
-              className={` gap-x-3  overflow-hidden  transition-all ${
-                MenuCase4 ? ` h-[690px] ` : `h-0`
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase4 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
               <div className="py-4  ">
@@ -450,7 +441,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className="bg-gray-200 mb-5">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -466,13 +457,10 @@ export default function AljadawilAldirasia() {
               جداول هندسة الحاسبات
             </h1>
           </div>
-          <div className="container mx-auto bg-gray-200">
+          <div className="container mx-auto ">
             <div
-              style={{
-                duration: `${duration}sm`,
-              }}
-              className={` gap-x-3  overflow-hidden  transition-all ${
-                MenuCase2 ? `  h-[690px] ` : `h-0`
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase2 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
               <div className="py-4  ">
@@ -621,7 +609,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className="bg-gray-200 mb-5">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -637,13 +625,10 @@ export default function AljadawilAldirasia() {
               جداول الهندسة المدنيه
             </h1>
           </div>
-          <div className="container mx-auto bg-gray-200">
+          <div className="container mx-auto ">
             <div
-              style={{
-                duration: `${duration}sm`,
-              }}
-              className={` gap-x-3  overflow-hidden  transition-all ${
-                MenuCase3 ? `  h-[1380px] ` : `h-0`
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase3 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
               <div className="py-4  ">
@@ -937,7 +922,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className="bg-gray-200 mb-5">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -953,13 +938,10 @@ export default function AljadawilAldirasia() {
               جداول الهندسة المعمارية{" "}
             </h1>
           </div>
-          <div className="container mx-auto bg-gray-200">
+          <div className="container mx-auto ">
             <div
-              style={{
-                duration: `${duration}sm`,
-              }}
-              className={` gap-x-3  overflow-hidden  transition-all ${
-                MenuCase5 ? `  h-[1380px] ` : `h-0`
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase5 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
               <div className="py-4  ">

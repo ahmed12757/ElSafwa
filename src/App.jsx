@@ -21,6 +21,10 @@ import AljadawilAlaimtihanat from "./page/AljadawilAlaimtihanat/AljadawilAlaimti
 import AllNews from "./page/AllNews/AllNews";
 import NewsDetails from "./page/NewsDetails/NewsDetails";
 import Alianshita from "./page/Alianshita/Alianshita";
+import CommunicationsEngineeringProgram from "./page/CommunicationsEngineeringProgram/CommunicationsEngineeringProgram";
+import ArchitectureProgram from "./page/ArchitectureProgram/ArchitectureProgram";
+import CivilEngineeringProgram from "./page/CivilEngineeringProgram/CivilEngineeringProgram";
+import ComputerEngineeringProgram from "./page/ComputerEngineeringProgram/ComputerEngineeringProgram";
 
 function App() {
   const router = createBrowserRouter([
@@ -49,6 +53,22 @@ function App() {
         { path: "lmsPage", element: <LmsPage /> },
         { path: "libraryPage", element: <LibraryPage /> },
         { path: "emailPage", element: <EmailPage /> },
+        {
+          path: "communicationsEngineeringProgram",
+          element: <CommunicationsEngineeringProgram />,
+        },
+        {
+          path: "architectureProgram",
+          element: <ArchitectureProgram />,
+        },
+        {
+          path: "civilEngineeringProgram",
+          element: <CivilEngineeringProgram />,
+        },
+        {
+          path: "computerEngineeringProgram",
+          element: <ComputerEngineeringProgram />,
+        },
       ],
     },
   ]);
