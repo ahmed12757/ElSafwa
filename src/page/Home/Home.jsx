@@ -260,22 +260,18 @@ export default function Home() {
 
                 768: {
                   slidesPerView: 3,
-                  spaceBetween: 40,
+                  spaceBetween: 20,
                 },
                 1024: {
                   slidesPerView: 4,
-                  spaceBetween: 30,
-                },
-                1124: {
-                  slidesPerView: 5,
-                  spaceBetween: 20,
+                  spaceBetween: 10,
                 },
               }}
               modules={[Navigation, Pagination, Autoplay]}
               className="flex items-center justify-center  "
             >
               <SwiperSlide>
-                <div className=" space-y-5  w-full   min-h-[450px] bg-gray-100  mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                <div className=" space-y-5  w-full   min-h-[450px] bg-gray-100 overflow-hidden mx-auto shadow-xl  rounded-2xl text-center flex-col my-0 border-2 border-primary-500">
                   <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User1}
@@ -294,7 +290,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-xl  rounded-2xl text-center flex-col my-0 border-2 border-primary-500">
                   <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User1}
@@ -316,7 +312,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-xl  rounded-2xl text-center flex-col my-0 border-2 border-primary-500">
                   <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User5}
@@ -335,7 +331,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                <div className=" space-y-5  w-full min-h-[450px] bg-gray-100 overflow-hidden   mx-auto shadow-xl  rounded-2xl text-center flex-col my-0 border-2 border-primary-500">
                   <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User1}
@@ -357,7 +353,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className=" space-y-5  w-full min-h-[450px]  bg-gray-100 overflow-hidden   mx-auto shadow-lg  rounded-2xl text-center flex-col my-0">
+                <div className=" space-y-5  w-full min-h-[450px]  bg-gray-100 overflow-hidden   mx-auto shadow-xl  rounded-2xl text-center flex-col my-0 border-2 border-primary-500">
                   <div className="w-full overflow-hidden my-0   ">
                     <img
                       src={User1}
@@ -368,6 +364,28 @@ export default function Home() {
                   <div className=" px-4 py-4 flex justify-center flex-col   font-bold text-lg">
                     <span className="text-primary-500"> عضو مجلس الإدارة </span>{" "}
                     <h1 className=""> أ.د رأفت الكمار</h1>
+                    <p className="pt-3">
+                      بريد العميد:{" "}
+                      <span className="text-primary-500">******</span>
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className=" space-y-5  w-full min-h-[450px]  bg-gray-100 overflow-hidden   mx-auto shadow-xl  rounded-2xl text-center flex-col my-0 border-2 border-primary-500">
+                  <div className="w-full overflow-hidden my-0   ">
+                    <img
+                      src={User1}
+                      alt=""
+                      className=" inline-block object-fit-cover h-[400px] w-full "
+                    />
+                  </div>
+                  <div className=" px-4 py-4 flex justify-center flex-col   font-bold text-lg">
+                    <span className="text-primary-500">
+                      {" "}
+                      أميــن عــــام المعـــــهد{" "}
+                    </span>{" "}
+                    <h1 className=""> محمد فيصل </h1>
                     <p className="pt-3">
                       بريد العميد:{" "}
                       <span className="text-primary-500">******</span>

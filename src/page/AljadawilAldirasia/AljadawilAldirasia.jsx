@@ -9,10 +9,10 @@ export default function AljadawilAldirasia() {
   const [MenuCase6, setMenuCase6] = useState(false);
 
   return (
-    <div className="  ">
+    <div className=" px-3 pb-4 min-h-fit bg-gradient-to-br from-[#0f172a] to-[#f28a24] bg-fixed bg-cover ">
       <div className="w-full h-[90px] lg:mb-15 mb-2 "></div>
       <section className={`sec-1 `}>
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4  bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(!MenuCase1);
@@ -48,7 +48,7 @@ export default function AljadawilAldirasia() {
                         <div className=" text-5xl font-bold text-red-500 ">
                           <i class="fa-regular fa-file-pdf"></i>
                         </div>
-                        <p className="text-lg font-bold">2025/2026</p>
+                        <p className="text-lg font-bold">2026/2027</p>
                       </a>
                     </li>
                     <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -61,6 +61,18 @@ export default function AljadawilAldirasia() {
                           <i class="fa-regular fa-file-pdf"></i>
                         </div>
                         <p className="text-lg font-bold">2025/2026</p>
+                      </a>
+                    </li>
+                    <hr className=" border-t-2 border-dotted border-gray-700" />
+                    <li className="flex flex-col gap-1 w-full  items-center ">
+                      <a
+                        href=""
+                        className="flex items-center flex-col gap-1 w-fit"
+                      >
+                        <div className=" text-5xl font-bold text-red-500 ">
+                          <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                        <p className="text-lg font-bold">2024/2025</p>
                       </a>
                     </li>
                   </ul>
@@ -82,7 +94,7 @@ export default function AljadawilAldirasia() {
                         <div className=" text-5xl font-bold text-red-500 ">
                           <i class="fa-regular fa-file-pdf"></i>
                         </div>
-                        <p className="text-lg font-bold">2025/2026</p>
+                        <p className="text-lg font-bold">2026/2027</p>
                       </a>
                     </li>
                     <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -97,6 +109,18 @@ export default function AljadawilAldirasia() {
                         <p className="text-lg font-bold">2025/2026</p>
                       </a>
                     </li>
+                    <hr className=" border-t-2 border-dotted border-gray-700" />
+                    <li className="flex flex-col gap-1 w-full  items-center ">
+                      <a
+                        href=""
+                        className="flex items-center flex-col gap-1 w-fit"
+                      >
+                        <div className=" text-5xl font-bold text-red-500 ">
+                          <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                        <p className="text-lg font-bold">2024/2025</p>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -104,7 +128,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -144,7 +168,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -157,6 +181,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -178,7 +214,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -191,6 +227,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -216,7 +264,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -229,6 +277,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -250,7 +310,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -265,6 +325,18 @@ export default function AljadawilAldirasia() {
                           <p className="text-lg font-bold">2025/2026</p>
                         </a>
                       </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -273,7 +345,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -313,7 +385,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -326,6 +398,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -347,7 +431,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -360,6 +444,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -384,7 +480,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -397,6 +493,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -418,7 +526,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -433,6 +541,18 @@ export default function AljadawilAldirasia() {
                           <p className="text-lg font-bold">2025/2026</p>
                         </a>
                       </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -441,7 +561,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -481,7 +601,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -494,6 +614,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -515,7 +647,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -528,6 +660,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -552,7 +696,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -565,6 +709,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -586,7 +742,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -601,6 +757,18 @@ export default function AljadawilAldirasia() {
                           <p className="text-lg font-bold">2025/2026</p>
                         </a>
                       </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -609,7 +777,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -649,7 +817,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -662,6 +830,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -683,7 +863,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -696,6 +876,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -721,7 +913,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -734,6 +926,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -755,7 +959,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -768,6 +972,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -793,7 +1009,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -806,6 +1022,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -827,7 +1055,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -840,6 +1068,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -865,7 +1105,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -878,6 +1118,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -899,7 +1151,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -914,6 +1166,18 @@ export default function AljadawilAldirasia() {
                           <p className="text-lg font-bold">2025/2026</p>
                         </a>
                       </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -922,7 +1186,7 @@ export default function AljadawilAldirasia() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -962,7 +1226,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -975,6 +1239,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -996,7 +1272,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -1009,6 +1285,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -1034,7 +1322,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -1047,6 +1335,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -1068,7 +1368,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -1081,6 +1381,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -1106,7 +1418,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -1119,6 +1431,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -1140,7 +1464,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -1153,6 +1477,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -1178,7 +1514,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -1191,6 +1527,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>
@@ -1212,7 +1560,7 @@ export default function AljadawilAldirasia() {
                           <div className=" text-5xl font-bold text-red-500 ">
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
-                          <p className="text-lg font-bold">2025/2026</p>
+                          <p className="text-lg font-bold">2026/2027</p>
                         </a>
                       </li>
                       <hr className=" border-t-2 border-dotted border-gray-700" />
@@ -1225,6 +1573,18 @@ export default function AljadawilAldirasia() {
                             <i class="fa-regular fa-file-pdf"></i>
                           </div>
                           <p className="text-lg font-bold">2025/2026</p>
+                        </a>
+                      </li>
+                      <hr className=" border-t-2 border-dotted border-gray-700" />
+                      <li className="flex flex-col gap-1 w-full  items-center ">
+                        <a
+                          href=""
+                          className="flex items-center flex-col gap-1 w-fit"
+                        >
+                          <div className=" text-5xl font-bold text-red-500 ">
+                            <i class="fa-regular fa-file-pdf"></i>
+                          </div>
+                          <p className="text-lg font-bold">2024/2025</p>
                         </a>
                       </li>
                     </ul>

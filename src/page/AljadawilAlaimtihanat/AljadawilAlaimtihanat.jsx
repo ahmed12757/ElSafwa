@@ -9,10 +9,10 @@ export default function AljadawilAlaimtihanat() {
   const [MenuCase6, setMenuCase6] = useState(false);
 
   return (
-    <div className="  ">
+    <div className=" px-3 pb-4 min-h-fit bg-gradient-to-br from-[#0f172a] to-[#f28a24] bg-fixed bg-cover ">
       <div className="w-full h-[90px] lg:mb-15 mb-2 "></div>
-      <section className={`sec-1 `}>
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+      <section className={`sec-1  `}>
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(!MenuCase1);
@@ -43,7 +43,7 @@ export default function AljadawilAlaimtihanat() {
                     <li className="flex flex-col gap-1 w-full   ">
                       <p className="font-bold text-lg my-2">
                         <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                        متنصف الفصل الدراسي
+                        منتصف الفصل الدراسي
                       </p>
                       <a
                         href=""
@@ -85,7 +85,7 @@ export default function AljadawilAlaimtihanat() {
                     <li className="flex flex-col gap-1 w-full   ">
                       <p className="font-bold text-lg my-2">
                         <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                        متنصف الفصل الدراسي
+                        منتصف الفصل الدراسي
                       </p>
                       <a
                         href=""
@@ -120,7 +120,7 @@ export default function AljadawilAlaimtihanat() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -155,7 +155,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -197,7 +197,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -243,7 +243,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -285,7 +285,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -321,7 +321,7 @@ export default function AljadawilAlaimtihanat() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -356,7 +356,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -398,7 +398,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -443,7 +443,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -485,7 +485,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -521,7 +521,7 @@ export default function AljadawilAlaimtihanat() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -556,7 +556,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -598,7 +598,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -643,7 +643,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -685,7 +685,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -721,7 +721,7 @@ export default function AljadawilAlaimtihanat() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -756,7 +756,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -798,7 +798,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -844,7 +844,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -886,7 +886,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -932,7 +932,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -974,7 +974,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1020,7 +1020,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1062,7 +1062,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1098,7 +1098,7 @@ export default function AljadawilAlaimtihanat() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg  bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -1133,7 +1133,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1175,7 +1175,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1221,7 +1221,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1263,7 +1263,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1309,7 +1309,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1351,7 +1351,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1397,7 +1397,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""
@@ -1439,7 +1439,7 @@ export default function AljadawilAlaimtihanat() {
                       <li className="flex flex-col gap-1 w-full   ">
                         <p className="font-bold text-lg my-2">
                           <span className="w-2 h-2 rounded-full bg-black inline-block"></span>{" "}
-                          متنصف الفصل الدراسي
+                          منتصف الفصل الدراسي
                         </p>
                         <a
                           href=""

@@ -3,9 +3,9 @@ import React, { useState } from "react";
 export default function CivilEngineeringProgram() {
   const [MenuCase1, setMenuCase1] = useState(true);
   const [MenuCase2, setMenuCase2] = useState(false);
+  const [MenuCase3, setMenuCase3] = useState(false);
   const [MenuCase4, setMenuCase4] = useState(false);
 
-  const duration = 1000;
   const employee = [
     {
       id: 1,
@@ -39,12 +39,32 @@ export default function CivilEngineeringProgram() {
     { id: 26, name: " م/معاذ محمود حسن", title: "معيد" },
     { id: 27, name: " م/محمود صلاح محمد", title: "معيد" },
   ];
+  const employee2 = [
+    {
+      id: 1,
+      name: "د/ أحمد محمد السيد السكري",
+      title: "رئيس القسم",
+    },
+    { id: 2, name: "د/ أحمد محمد حبيب", title: "المدرس بالقسم" },
+    { id: 3, name: "د/ علاء الدين إسماعيل علي", title: "المدرس بالقسم" },
+    { id: 4, name: "د/ محمد الطناني محمد", title: "المدرس بالقسم" },
+    { id: 5, name: "د/ أحمد طلعت محمد", title: "المدرس بالقسم" },
+    { id: 6, name: "د/ أحمد عبد الحميد أحمد", title: "المدرس بالقسم" },
+    { id: 7, name: "د/ محمد محمد سليمان", title: "المدرس بالقسم" },
+    { id: 8, name: "د/ سعد عبدالعاطي غنيم", title: "المدرس بالقسم" },
+    { id: 9, name: "د/ محمد عادل قناوي", title: "المدرس بالقسم" },
+    { id: 10, name: "د/ حسام الدين عبدالعظيم علي", title: "المدرس بالقسم" },
+    { id: 11, name: "د/ شيرين يسر أحمد", title: "المدرس بالقسم" },
+    { id: 12, name: "د/ آية سعيد عطا", title: "المدرس بالقسم" },
+  ];
 
   return (
     <>
-      <section className={`sec-1 px-2 `}>
+      <section
+        className={`sec-1 px-3 pb-4 min-h-screen bg-gradient-to-br from-[#0f172a] to-[#f28a24] bg-fixed bg-cover `}
+      >
         <div className="w-full h-[90px] lg:mb-15 mb-2"></div>
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(!MenuCase1);
@@ -118,7 +138,7 @@ export default function CivilEngineeringProgram() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -209,11 +229,11 @@ export default function CivilEngineeringProgram() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
-
+              setMenuCase3(false);
               setMenuCase2(!MenuCase2);
               setMenuCase4(false);
             }}
@@ -232,6 +252,63 @@ export default function CivilEngineeringProgram() {
               <div className="  py-2 px-4 font-medium text-lg h-fit">
                 <p className="py-3 text-center text-xl font-bold">
                   تشكيل مجلس القسم{" "}
+                </p>
+
+                <div className="grid grid-cols-12 gap-x-3 border-1">
+                  <div className="col-span-12 grid grid-cols-11 border-1 text-center bg-primary-500  font-bold">
+                    <div className=" col-span-1 py-2 border  px-2">م</div>
+                    <div className=" col-span-5 py-2 border px-2">
+                      هيئة التدريس
+                    </div>
+                    <div className=" col-span-5 py-2 border  px-2">
+                      الدرجة الوظيفية
+                    </div>
+                  </div>
+
+                  <div className="col-span-12 grid grid-cols-11 border-1  font-bold">
+                    {employee2.map((emp) => (
+                      <>
+                        <div className=" col-span-1 py-2 border px-2">
+                          {emp.id}
+                        </div>
+                        <div className=" col-span-5 py-2 border px-2">
+                          {emp.name}
+                        </div>
+                        <div className=" col-span-5 py-2 border px-2">
+                          {emp.title}
+                        </div>
+                      </>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
+          <div
+            onClick={() => {
+              setMenuCase1(false);
+              setMenuCase2(false);
+              setMenuCase3(!MenuCase3);
+              setMenuCase4(false);
+            }}
+            className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
+          >
+            <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
+              هيئة التدريس باقسم{" "}
+            </h1>
+          </div>
+          <div className="container mx-auto ">
+            <div
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase3 ? `  max-h-[9999px] ` : `max-h-0`
+              } `}
+            >
+              <div className="  py-2 px-4 font-medium text-lg h-fit">
+                <p className="py-3 text-center text-xl font-bold">
+                  تشكيل هيئة التدريس بالقسم
                 </p>
 
                 <div className="grid grid-cols-12 gap-x-3 border-1">
@@ -266,7 +343,7 @@ export default function CivilEngineeringProgram() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
           <a
             href=""
             target="_blank"
@@ -279,7 +356,7 @@ export default function CivilEngineeringProgram() {
           </a>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
           <a
             href=""
             target="_blank"
@@ -292,7 +369,7 @@ export default function CivilEngineeringProgram() {
           </a>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl ">
           <a
             href=""
             target="_blank"

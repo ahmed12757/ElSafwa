@@ -53,10 +53,10 @@ export default function Almaehad() {
 
   return (
     <>
-      <div className="   ">
+      <div className="  min-h-screen bg-gradient-to-br from-[#0f172a] to-[#f28a24] bg-fixed bg-cover  bg-gray-200  ">
         <div className="w-full h-[90px] lg:mb-15 mb-2 "></div>
-        <section className={`sec-1 ${section1 ? ` block` : `hidden`} `}>
-          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <section className={`sec-1 px-3   ${section1 ? ` block` : `hidden`} `}>
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
             <div
               onClick={() => {
                 setMenuCase1(!MenuCase1);
@@ -209,7 +209,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -253,7 +253,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -308,7 +308,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -372,7 +372,7 @@ export default function Almaehad() {
             </div>
           </div>
 
-          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+          <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
             <div
               onClick={() => {
                 setMenuCase1(false);
@@ -445,9 +445,9 @@ export default function Almaehad() {
           </div>
         </section>
 
-        <section className={`sec-4 ${section4 ? ` block` : `hidden`}`}>
+        <section className={`sec-4 px-3 ${section4 ? ` block` : `hidden`}`}>
           <div className="">
-            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
               <div
                 onClick={() => {
                   setMenuCase21(!MenuCase21);
@@ -536,7 +536,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
               <div
                 onClick={() => {
                   setMenuCase21(false);
@@ -648,7 +648,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
               <div
                 onClick={() => {
                   setMenuCase21(false);
@@ -707,9 +707,9 @@ export default function Almaehad() {
           </div>
         </section>
 
-        <section className={`sec-2 ${section2 ? ` block` : `hidden`}`}>
+        <section className={`sec-2 px-3 ${section2 ? ` block` : `hidden`}`}>
           <div className="   ">
-            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
               <div
                 onClick={() => {
                   setMenuCase31(!MenuCase31);
@@ -740,7 +740,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
               <div
                 onClick={() => {
                   setMenuCase32(!MenuCase32);
@@ -769,7 +769,7 @@ export default function Almaehad() {
               </div>
             </div>
 
-            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
               <div
                 onClick={() => {
                   setMenuCase33(!MenuCase33);
@@ -799,9 +799,9 @@ export default function Almaehad() {
           </div>
         </section>
 
-        <section className={`sec-3 ${section3 ? ` block` : `hidden`}`}>
+        <section className={`sec-3 px-3 ${section3 ? ` block` : `hidden`}`}>
           <div className="   ">
-            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+            <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
               <div className="bg-gray-900 w-full py-3 px-4 cursor-pointer ">
                 <h1
                   id="a2"
@@ -858,7 +858,7 @@ export default function Almaehad() {
           </div>
         </section>
 
-        <div className="bg-primary-400 py-7 flex items-center justify-center">
+        <div className="bg-primary-800 py-7 flex items-center justify-center text-black">
           <div className=" container flex items-center justify-center">
             <ul className="flex items-center justify-center flex-wrap gap-0.5 text-lg font-semibold">
               <a href="#a1">
@@ -932,10 +932,10 @@ export default function Almaehad() {
           </div>
         </div>
 
-        <footer className="pt-32 pb-14 bg-blue-900">
+        <footer className="pt-32 pb-14 bg-blue-900 text-black">
           <div className=" flex flex-wrap  gap-y-28  items-center justify-center gap-x-10 container mx-auto px-4">
             <div>
-              <div className="space-y-5 w-fit  relative shadow-lg rounded-3xl  flex items-center justify-center flex-col bg-gray-100 ">
+              <div className="space-y-5 w-fit  relative shadow-2xl rounded-3xl  flex items-center justify-center flex-col bg-gray-100 ">
                 <div className=" absolute top-0  left-[50%] -translate-y-[50%]  translate-x-[-50%]">
                   <img
                     src={User1}
@@ -959,7 +959,7 @@ export default function Almaehad() {
             </div>
 
             <div>
-              <div className="space-y-5 w-fit  relative shadow-lg rounded-3xl  flex items-center justify-center flex-col bg-gray-100 ">
+              <div className="space-y-5 w-fit  relative shadow-2xl rounded-3xl  flex items-center justify-center flex-col bg-gray-100 ">
                 <div className="absolute top-0  left-[50%] -translate-y-[50%]  -translate-x-[50%]">
                   <img
                     src={User2}

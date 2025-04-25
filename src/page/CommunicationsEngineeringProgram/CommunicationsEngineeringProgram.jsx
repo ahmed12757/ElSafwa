@@ -3,6 +3,7 @@ import React, { useState } from "react";
 export default function CommunicationsEngineeringProgram() {
   const [MenuCase1, setMenuCase1] = useState(true);
   const [MenuCase2, setMenuCase2] = useState(false);
+  const [MenuCase3, setMenuCase3] = useState(false);
   const [MenuCase4, setMenuCase4] = useState(false);
 
   const duration = 90000;
@@ -72,12 +73,69 @@ export default function CommunicationsEngineeringProgram() {
     { id: 20, name: "م/ هاجر محمد حسن", title: "معيد" },
     { id: 21, name: "م/ نهى أحمد محمد", title: "معيد" },
   ];
+  const employee2 = [
+    {
+      id: 1,
+      name: "أ.د/ محمد لطفي رابح",
+      title: "رئيس القسم  ",
+    },
+    {
+      id: 2,
+      name: "د/ محمد محمد الهادي",
+      title: "المدرس بالقسم ومنسق البرنامج  بالقسم",
+    },
+    {
+      id: 3,
+      name: "د/ عادل يحيى عزت",
+      title: "المدرس بالقسم",
+    },
+
+    {
+      id: 4,
+      name: "د/ طارق حسني علي",
+      title: " المدرس بالقسم ومدير وحدة ضمان الجودة بالقسم",
+    },
+    {
+      id: 5,
+      name: "د/ محمد إبراهيم جبر",
+      title: " المدرس بالقسم ومنسق وحدة ضمان الجودة بالقسم",
+    },
+
+    {
+      id: 6,
+      name: "د/ دعاء السعيد حسن",
+      title: "المدرس بالقسم",
+    },
+    {
+      id: 7,
+      name: "د/ بيداء مرتضى ذكي",
+      title: "المدرس بالقسم",
+    },
+
+    {
+      id: 8,
+      name: "د/ فاطمة أحمد محمد",
+      title: "المدرس بالقسم",
+    },
+    {
+      id: 9,
+      name: "د/ مصطفى أحمد حسن",
+      title: "المدرس بالقسم",
+    },
+    {
+      id: 10,
+      name: "د/ محمد مصطفى محمد",
+      title: "المدرس بالقسم",
+    },
+  ];
 
   return (
     <>
-      <section className={`sec-1 px-2 `}>
+      <section
+        className={`sec-1 px-3 pb-4  min-h-screen bg-gradient-to-br from-[#0f172a] to-[#f28a24] bg-fixed bg-cover `}
+      >
         <div className="w-full h-[90px] lg:mb-15 mb-2"></div>
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(!MenuCase1);
@@ -171,7 +229,7 @@ export default function CommunicationsEngineeringProgram() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
@@ -246,12 +304,12 @@ export default function CommunicationsEngineeringProgram() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
           <div
             onClick={() => {
               setMenuCase1(false);
-
-              setMenuCase2(!MenuCase2);
+              setMenuCase2(false);
+              setMenuCase3(!MenuCase3);
               setMenuCase4(false);
             }}
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
@@ -263,12 +321,69 @@ export default function CommunicationsEngineeringProgram() {
           <div className="container mx-auto ">
             <div
               className={` gap-x-3  overflow-hidden duration-500  transition-all ${
-                MenuCase2 ? `  max-h-[9999px] ` : `max-h-0`
+                MenuCase3 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
               <div className="  py-2 px-4 font-medium text-lg h-fit">
                 <p className="py-3 text-center text-2xl font-bold">
                   تشكيل مجلس القسم{" "}
+                </p>
+
+                <div className="grid grid-cols-12 gap-x-3 border-1">
+                  <div className="col-span-12 grid grid-cols-11 border-1 text-center bg-primary-500  font-bold">
+                    <div className=" col-span-1 py-2 border  px-2">م</div>
+                    <div className=" col-span-5 py-2 border px-2">
+                      هيئة التدريس
+                    </div>
+                    <div className=" col-span-5 py-2 border  px-2">
+                      الدرجة الوظيفية
+                    </div>
+                  </div>
+
+                  <div className="col-span-12 grid grid-cols-11 border-1  font-bold">
+                    {employee2.map((emp) => (
+                      <>
+                        <div className=" col-span-1 py-2 border px-2">
+                          {emp.id}
+                        </div>
+                        <div className=" col-span-5 py-2 border px-2">
+                          {emp.name}
+                        </div>
+                        <div className=" col-span-5 py-2 border px-2">
+                          {emp.title}
+                        </div>
+                      </>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
+          <div
+            onClick={() => {
+              setMenuCase1(false);
+              setMenuCase3(false);
+              setMenuCase2(!MenuCase2);
+              setMenuCase4(false);
+            }}
+            className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
+          >
+            <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
+              هيئة التدريس باقسم{" "}
+            </h1>
+          </div>
+          <div className="container mx-auto ">
+            <div
+              className={` gap-x-3  overflow-hidden duration-500  transition-all ${
+                MenuCase2 ? `  max-h-[9999px] ` : `max-h-0`
+              } `}
+            >
+              <div className="  py-2 px-4 font-medium text-lg h-fit">
+                <p className="py-3 text-center text-2xl font-bold">
+                  تشكيل هيئة التدريس بالقسم
                 </p>
 
                 <div className="grid grid-cols-12 gap-x-3 border-1">
@@ -303,7 +418,7 @@ export default function CommunicationsEngineeringProgram() {
           </div>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
           <a
             href=""
             target="_blank"
@@ -315,7 +430,7 @@ export default function CommunicationsEngineeringProgram() {
             </h1>
           </a>
         </div>
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
           <a
             href=""
             target="_blank"
@@ -327,7 +442,7 @@ export default function CommunicationsEngineeringProgram() {
             </h1>
           </a>
         </div>
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl">
           <a
             href=""
             target="_blank"

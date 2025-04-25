@@ -2,9 +2,9 @@ import React from "react";
 
 export default function NizamAldirasih() {
   return (
-    <div className="   ">
+    <div className="  px-3 pb-4 min-h-fit bg-gradient-to-br from-[#0f172a] to-[#f28a24] bg-fixed bg-cover  ">
       <div className="w-full h-[90px] lg:mb-15 mb-2 "></div>
-      <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4">
+      <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg  bg-gray-200 ">
         <div className="bg-gray-900 w-full py-3 px-4 cursor-pointer ">
           <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
             الدراسة والإمتحانات :
