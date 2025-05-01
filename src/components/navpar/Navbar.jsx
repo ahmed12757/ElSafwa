@@ -16,8 +16,8 @@ export default function Navbar() {
       }}
       className={` bg-primary-500/70 rounded-4xl container lg:pt-10 lg:pb-5 border-8 border-primary-700/50 mx-auto px-4 absolute lg:top-10 top-1 right-0 left-0 z-50 overflow-hidden lg:overflow-visible  ${
         menuCase
-          ? ` ${menuCase1 ? `h-[605px]` : `h-[405px]`} ${
-              menuCase2 ? `h-[650px]` : `h-[405px]`
+          ? ` ${menuCase1 ? `h-[520px]` : `h-[360px]`} ${
+              menuCase2 ? `h-[610px]` : `h-[360px]`
             } lg:h-fit py-3 `
           : `h-[88px] lg:h-fit`
       }`}
@@ -327,27 +327,6 @@ export default function Navbar() {
                   }}
                 >
                   الهيكل التنظيمى
-                </NavLink>
-              </li>
-
-              <li
-                onClick={() => {
-                  setMenuCaseActive1(false);
-                  setMenuCaseActive2(false);
-                  setMenuCase1(false);
-                  setMenuCase2(false);
-                  setMenuCase(false);
-                }}
-              >
-                <NavLink
-                  to={"/alianshita"}
-                  className={({ isActive }) => {
-                    return `${
-                      isActive ? `text-black font-bold  text-xl  ` : ``
-                    }`;
-                  }}
-                >
-                  الأنشطة
                 </NavLink>
               </li>
 

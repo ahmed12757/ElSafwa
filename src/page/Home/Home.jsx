@@ -249,7 +249,7 @@ export default function Home() {
               spaceBetween={20}
               loop={true}
               autoplay={{
-                delay: 9000,
+                delay: 5000,
               }}
               navigation={true}
               breakpoints={{

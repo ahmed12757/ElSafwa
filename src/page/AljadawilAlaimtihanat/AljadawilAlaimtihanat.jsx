@@ -34,7 +34,7 @@ export default function AljadawilAlaimtihanat() {
                 MenuCase1 ? `  max-h-[9999px] ` : `max-h-0`
               } `}
             >
-              <div className="grid grid-cols-11 px-1">
+              <div className="grid grid-cols-11 px-3">
                 <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                   <h1 className="font-bold text-xl">
                     جداول الفصل الدراسي الأول
@@ -136,7 +136,7 @@ export default function AljadawilAlaimtihanat() {
               جداول هندسة الالكترونيات والاتصالات والحاسبات
             </h1>
           </div>
-          <div className="container mx-auto ">
+          <div className="container mx-auto  ">
             <div
               className={` gap-x-3  overflow-hidden duration-500 transition-all ${
                 MenuCase6 ? `  max-h-[9999px] ` : `max-h-0`
@@ -146,7 +146,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الأولى
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -234,7 +234,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الثانية
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -347,7 +347,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الثالثة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -434,7 +434,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الرابعة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -547,7 +547,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الثالثة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -634,7 +634,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الرابعة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -747,7 +747,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الاولى
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -835,7 +835,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الثانية
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -923,7 +923,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الثالثة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -1011,7 +1011,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الرابعة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -1124,7 +1124,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الاولى
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -1212,7 +1212,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الثانية
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -1300,7 +1300,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الثالثة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول
@@ -1388,7 +1388,7 @@ export default function AljadawilAlaimtihanat() {
                 <p className="font-bold text-2xl bg-primary-600 py-2 px-5">
                   الفرقة الرابعة
                 </p>
-                <div className="grid grid-cols-11 px-1">
+                <div className="grid grid-cols-11 px-3">
                   <div className=" col-span-5 py-2  font-medium text-lg h-fit flex flex-col items-center">
                     <h1 className="font-bold text-xl">
                       جداول الفصل الدراسي الأول

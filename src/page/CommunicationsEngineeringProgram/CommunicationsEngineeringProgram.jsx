@@ -5,8 +5,6 @@ export default function CommunicationsEngineeringProgram() {
   const [MenuCase2, setMenuCase2] = useState(false);
   const [MenuCase3, setMenuCase3] = useState(false);
   const [MenuCase4, setMenuCase4] = useState(false);
-
-  const duration = 90000;
   const employee = [
     {
       id: 1,
@@ -430,6 +428,7 @@ export default function CommunicationsEngineeringProgram() {
             </h1>
           </a>
         </div>
+
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
           <a
             href=""
@@ -442,6 +441,7 @@ export default function CommunicationsEngineeringProgram() {
             </h1>
           </a>
         </div>
+
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl">
           <a
             href=""
