@@ -245,7 +245,7 @@ export default function WahdatAlazimat() {
           className="bg-gray-900 w-full py-3 px-4 cursor-pointer"
         >
           <h1 className="container mx-auto text-white md:text-3xl text-lg font-bold">
-            مواصفات واختصاصات المديرالتنفيذى للوحدة{" "}
+            مواصفات واختصاصات المدير التنفيذى للوحدة{" "}
           </h1>
         </div>
         <div className="container mx-auto ">
