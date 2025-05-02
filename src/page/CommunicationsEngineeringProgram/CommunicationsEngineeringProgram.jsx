@@ -5,6 +5,7 @@ export default function CommunicationsEngineeringProgram() {
   const [MenuCase2, setMenuCase2] = useState(false);
   const [MenuCase3, setMenuCase3] = useState(false);
   const [MenuCase4, setMenuCase4] = useState(false);
+  const [MenuCase5, setMenuCase5] = useState(false);
   const employee = [
     {
       id: 1,
@@ -138,8 +139,9 @@ export default function CommunicationsEngineeringProgram() {
             onClick={() => {
               setMenuCase1(!MenuCase1);
               setMenuCase2(false);
-
+              setMenuCase2(false);
               setMenuCase4(false);
+              setMenuCase5(false);
             }}
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer"
           >
@@ -231,8 +233,9 @@ export default function CommunicationsEngineeringProgram() {
           <div
             onClick={() => {
               setMenuCase1(false);
-
               setMenuCase2(false);
+              setMenuCase3(false);
+              setMenuCase5(false);
               setMenuCase4(!MenuCase4);
             }}
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
@@ -309,6 +312,7 @@ export default function CommunicationsEngineeringProgram() {
               setMenuCase2(false);
               setMenuCase3(!MenuCase3);
               setMenuCase4(false);
+              setMenuCase5(false);
             }}
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
@@ -366,6 +370,7 @@ export default function CommunicationsEngineeringProgram() {
               setMenuCase3(false);
               setMenuCase2(!MenuCase2);
               setMenuCase4(false);
+              setMenuCase5(false);
             }}
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
@@ -429,17 +434,58 @@ export default function CommunicationsEngineeringProgram() {
           </a>
         </div>
 
-        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gray-900 w-full py-3 px-4 inline-block "
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-lg mb-4  bg-gray-200 ">
+          <div
+            onClick={() => {
+              setMenuCase5(!MenuCase5);
+              setMenuCase2(false);
+              setMenuCase3(false);
+              setMenuCase4(false);
+              setMenuCase1(false);
+            }}
+            className="bg-gray-900 w-full py-3 px-4 cursor-pointer"
           >
-            <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              البرامج الدراسية
+            <h1 className="container mx-auto text-white md:text-3xl text-lg font-bold">
+              البرامج الدراسية{" "}
             </h1>
-          </a>
+          </div>
+          <div className="container mx-auto ">
+            <div
+              className={`  gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase5 ? `  max-h-[9999px] ` : `max-h-0`
+              } `}
+            >
+              <div className="grid grid-cols-11 px-3">
+                <div className=" col-span-12 py-2  font-medium text-lg h-fit flex flex-col items-center">
+                  <ul className="px-4 pt-4 w-full space-y-5">
+                    <li className="flex flex-col gap-1 w-full items-center ">
+                      <a
+                        href=""
+                        className="flex items-center flex-col gap-1 w-fit"
+                      >
+                        <div className=" text-5xl font-bold text-red-500 ">
+                          <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                        <p className="text-lg font-bold"> اللائحة القديمة </p>
+                      </a>
+                    </li>
+                    <hr className=" border-t-2 border-dotted border-gray-700" />
+                    <li className="flex flex-col gap-1 w-full items-center ">
+                      <a
+                        href=""
+                        className="flex items-center flex-col gap-1 w-fit"
+                      >
+                        <div className=" text-5xl font-bold text-red-500 ">
+                          <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                        <p className="text-lg font-bold">اللائحة الجديدة </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl">
