@@ -3,6 +3,7 @@ import Navbar from "../navpar/Navbar";
 import { Outlet, useLocation } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import BackToTop from "../BackToTop/BackToTop";
+import SpeechWrapper from "../SpeechWrapper/SpeechWrapper";
 
 export default function Layout() {
   const { pathname } = useLocation();
@@ -17,6 +18,7 @@ export default function Layout() {
         <BackToTop />
       </div>
       <Footer />
+      <SpeechWrapper />
     </>
   );
 }
