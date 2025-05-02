@@ -33,7 +33,7 @@ export default function WahdatAlkhiriyjin() {
     <div className="px-3 pb-4  min-h-fit bg-gradient-to-br from-[#0f172a] to-[#f28a24] bg-fixed bg-cover">
       <div className="w-full h-[90px] lg:mb-15 mb-2"></div>
       <div className="max-w-2xl mx-auto bg-white/80 backdrop-blur-md p-6 shadow-md rounded-xl text-right">
-        <p className="mb-6 text-gray-700 leading-loose">
+        <p className="mb-6 text-gray-700 leading-loose text-center ">
           عزيزي الخريج يمكنك التواصل معنا وطلب استخراج شهادة مؤقته أو بيان
           تقديرات أو بيان نجاح وحسن السير والسلوك من خلال إرسال رسالة أو التواصل
           واتساب من خلال الروابط التالية، يسعدنا تواصلك معنا

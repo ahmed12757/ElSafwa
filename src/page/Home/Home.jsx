@@ -20,6 +20,7 @@ import "swiper/css/navigation";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Card from "../../components/Card/Card";
 import { NavLink } from "react-router-dom";
+import SocialSidebar from "../../components/SocialSidebar/SocialSidebar";
 
 export default function Home() {
   return (
@@ -64,6 +65,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
           </Swiper>
+          {<SocialSidebar />}
           <div className=" w-full container absolute !mx-auto left-0 px-3 right-0 -bottom-[44px] z-30  ">
             <Swiper
               slidesPerView={1}
