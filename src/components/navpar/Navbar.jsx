@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import logo from "../../images/safwa.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+
 export default function Navbar() {
+  const { pathname } = useLocation();
   let [menuCase, setMenuCase] = useState(false);
   let [menuCase1, setMenuCase1] = useState(false);
   let [menuCaseActive1, setMenuCaseActive1] = useState(false);
@@ -67,8 +69,18 @@ export default function Navbar() {
                 <NavLink
                   to={"/"}
                   className={({ isActive }) => {
+                    const specialPages = [
+                      "/communicationsEngineeringProgram",
+                      "/architectureProgram",
+                      "/civilEngineeringProgram",
+                      "/computerEngineeringProgram",
+                      "/allNews",
+                      "/newsDetails"
+                    ];
                     return `${
-                      isActive ? `text-black font-bold  text-xl  ` : ``
+                      isActive || pathname === "/" || specialPages.includes(pathname) 
+                        ? `text-black font-bold text-xl` 
+                        : ``
                     }`;
                   }}
                 >
@@ -109,11 +121,7 @@ export default function Navbar() {
                 }`}
               >
                 الدراسة والامتحانات{" "}
-                {menuCase1 ? (
-                  <i class="fa-solid fa-caret-up"></i>
-                ) : (
-                  <i class="fa-solid fa-caret-down"></i>
-                )}
+                <i className="fa-solid fa-caret-down hidden lg:inline-block"></i>
                 <ul
                   className={`lg:absolute  bg-primary-400 space-y-2 lg:group-hover/min1:py-3 w-full lg:w-[180px] lg:top-[61px]  lg:group-hover/min1:h-[140px]   overflow-hidden lg:group-hover/min1:transition-all lg:group-hover/min1:duration-300 duration-300 lg:delay-400 ${
                     menuCase1
@@ -195,11 +203,7 @@ export default function Navbar() {
                 } `}
               >
                 الوحدات بالمعهد{" "}
-                {menuCase2 ? (
-                  <i class="fa-solid fa-caret-up"></i>
-                ) : (
-                  <i class="fa-solid fa-caret-down"></i>
-                )}
+                <i className="fa-solid fa-caret-down hidden lg:inline-block"></i>
                 <ul
                   className={`lg:absolute  bg-primary-400 space-y-2  lg:group-hover/min1:py-3 w-full lg:w-[230px] lg:top-[61px]  lg:group-hover/min1:h-[235px]   overflow-hidden lg:group-hover/min1:transition-all lg:group-hover/min1:duration-300 duration-300 lg:delay-400 text-start ${
                     menuCase2

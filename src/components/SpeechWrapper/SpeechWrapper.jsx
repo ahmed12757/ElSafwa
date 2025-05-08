@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom"; // عشان نعرف الصفحة الحالية
+import { useLocation } from "react-router-dom";
 
 const SpeechWrapper = () => {
   const [enabled, setEnabled] = useState(true);
-  const location = useLocation(); // بنستخدمها لمراقبة تغير الصفحة
+  const location = useLocation();
 
   // دالة للحصول على النص المباشر فقط من العنصر
   const getDirectText = (element) => {
@@ -16,45 +16,80 @@ const SpeechWrapper = () => {
     return text.trim();
   };
 
-  useEffect(() => {
-    const speak = (event) => {
-      if (!enabled) return;
+  // دالة لنطق النص
+  const speakText = (text) => {
+    if (!enabled || !text) return;
 
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "ar-EG";
+
+    const voices = window.speechSynthesis.getVoices();
+    const arabicVoice = voices.find(
+      (voice) =>
+        voice.lang.startsWith("ar") &&
+        (voice.name.toLowerCase().includes("majeed") ||
+          voice.name.toLowerCase().includes("hazem"))
+    );
+    utterance.voice =
+      arabicVoice || voices.find((v) => v.lang.startsWith("ar")) || null;
+
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  };
+
+  useEffect(() => {
+    // عند المرور على العناصر العامة
+    const speakOnHover = (event) => {
       const el = event.currentTarget;
       const text = getDirectText(el);
+      speakText(text);
+    };
 
-      if (text.length > 0) {
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = "ar-EG";
+    // عند تغيير الخيار المحدد في select
+    const speakOnSelectChange = (event) => {
+      const select = event.currentTarget;
+      const selectedOption = select.options[select.selectedIndex];
+      const text = selectedOption ? selectedOption.text : "";
+      speakText(text);
+    };
 
-        const voices = window.speechSynthesis.getVoices();
-        const arabicVoice = voices.find(
-          (voice) =>
-            voice.lang.startsWith("ar") &&
-            (voice.name.toLowerCase().includes("majeed") ||
-              voice.name.toLowerCase().includes("hazem"))
-        );
-        utterance.voice =
-          arabicVoice || voices.find((v) => v.lang.startsWith("ar")) || null;
-
-        window.speechSynthesis.cancel();
-        window.speechSynthesis.speak(utterance);
+    // إضافة مستمع أحداث للضغط على Tab
+    const handleTabNavigation = (event) => {
+      if (event.key === "Tab") {
+        const focusedElement = document.activeElement;
+        const text = getDirectText(focusedElement);
+        speakText(text);
       }
     };
 
-    const selectors = "p, h1, h2, h3, h4, h5, h6, button, a, li, span, div";
-    const elements = document.querySelectorAll(selectors);
+    // عند تغيير الصفحة أو التفاعل مع العنصر
+    const generalSelectors =
+      "p, h1, h2, h3, h4, h5, h6, button, a, li, span, div, form, label";
+    const generalElements = document.querySelectorAll(generalSelectors);
+    const selectElements = document.querySelectorAll("select");
 
-    elements.forEach((el) => {
-      el.addEventListener("mouseenter", speak);
+    generalElements.forEach((el) => {
+      el.addEventListener("mouseenter", speakOnHover);
     });
 
+    selectElements.forEach((el) => {
+      el.addEventListener("change", speakOnSelectChange);
+    });
+
+    // إضافة مستمع الحدث عند الضغط على Tab
+    window.addEventListener("keydown", handleTabNavigation);
+
+    // تنظيف الأحداث عند الخروج أو تغيير الصفحة
     return () => {
-      elements.forEach((el) => {
-        el.removeEventListener("mouseenter", speak);
+      generalElements.forEach((el) => {
+        el.removeEventListener("mouseenter", speakOnHover);
       });
+      selectElements.forEach((el) => {
+        el.removeEventListener("change", speakOnSelectChange);
+      });
+      window.removeEventListener("keydown", handleTabNavigation);
     };
-  }, [location.pathname, enabled]); // الكود يعيد التنفيذ عند كل تغيير للصفحة
+  }, [location.pathname, enabled]);
 
   const toggleSpeech = () => {
     window.speechSynthesis.cancel();

@@ -8,7 +8,7 @@ export default function Card() {
       <div className="col-span-12 sm:col-span-6  lg:col-span-3  rounded-2xl overflow-hidden shadow-2xl">
         <div className="  ">
           <img src={Image} alt="" className="w-full" />
-          <div className=" flex flex-col  space-y-2 px-3 py-2">
+          <div className=" flex flex-col  space-y-2 px-3 py-2 bg-gray-100">
             <p className=" text-xl font-semibold line-clamp-1 mt-2">
               مناقشة مشاريع مادة نظم التحكم (١) الفرقة الثالثة قسم هندسة
               الحاسبات تحت إشراف: د/ فاطمة عبدالوهاب م/ عبير سعيد
@@ -22,7 +22,9 @@ export default function Card() {
             </p>
             <div className=" flex items-center">
               <p className="text-lg font-semibold">التاريخ :</p>
-              <p className=" text-lg text-primary-700">13/12/2024</p>
+              <div className="flex items-center gap-6 text-gray-500 text-base font-semibold">
+                <span>2024-06-01</span>
+              </div>
             </div>
             <NavLink
               to={`/newsDetails`}

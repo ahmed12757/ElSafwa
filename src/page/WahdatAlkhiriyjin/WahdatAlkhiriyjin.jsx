@@ -139,10 +139,10 @@ export default function WahdatAlkhiriyjin() {
               className="w-full border p-2 rounded"
             >
               <option value="">-- اختر الشهادة --</option>
-              <option value="شهادة تخرج">شهادة تخرج</option>
-              <option value="بيان نجاح">بيان نجاح</option>
-              <option value="بيان تقديرات">بيان تقديرات</option>
-              <option value="حسن سير وسلوك">حسن سير وسلوك</option>
+              <option value="شهادة تخرج"> شهادة تخرج </option>
+              <option value="بيان نجاح"> بيان نجاح </option>
+              <option value="بيان تقديرات"> بيان تقديرات </option>
+              <option value="حسن سير وسلوك"> حسن سير وسلوك </option>
             </select>
             {formik.touched.certificateType &&
               formik.errors.certificateType && (
