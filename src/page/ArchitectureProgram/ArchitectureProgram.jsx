@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProgramCouncilPDF from "../../pdfs/ArchitectureProgram/هيكل برنامج الهندسة المعمارية.pdf";
 import OldRegulationsPDF from "../../pdfs/ArchitectureProgram/قوائم قسم عمارة - قديم.pdf";
 import NewRegulationsPDF from "../../pdfs/ArchitectureProgram/اللائحة الجديدة-أولي-ثانية.pdf";
-import AcademicStandardsPDF from "../../pdfs/ArchitectureProgram/Architecture_Competencies.pdf";
+import AcademicStandardsPDF from "../../pdfs/ArchitectureProgram/Architecture Competencies.pdf";
 
 export default function ArchitectureProgram() {
   const [MenuCase1, setMenuCase1] = useState(true);
@@ -102,7 +102,7 @@ export default function ArchitectureProgram() {
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              الرؤية والرسالة والاهداف{" "}
+              الرؤية والرسالة والأهداف{" "}
             </h1>
           </div>
           <div className="container mx-auto ">
@@ -409,7 +409,7 @@ export default function ArchitectureProgram() {
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              هيئة التدريس باقسم{" "}
+              هيئة التدريس بالقسم{" "}
             </h1>
           </div>
           <div className="container mx-auto ">
@@ -463,7 +463,7 @@ export default function ArchitectureProgram() {
             className="bg-gray-900 w-full py-3 px-4 inline-block "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              مجلس البرنامج
+              الهيكل التنظيمي للبرنامج
             </h1>
           </a>
         </div>

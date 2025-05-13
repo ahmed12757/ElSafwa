@@ -255,7 +255,7 @@ export default function ComputerEngineeringProgram() {
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              الرؤية والرسالة والاهداف{" "}
+              الرؤية والرسالة والأهداف{" "}
             </h1>
           </div>
           <div className="container mx-auto ">
@@ -399,7 +399,7 @@ export default function ComputerEngineeringProgram() {
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              هيئة التدريس باقسم{" "}
+              هيئة التدريس بالقسم{" "}
             </h1>
           </div>
           <div className="container mx-auto ">
@@ -453,7 +453,7 @@ export default function ComputerEngineeringProgram() {
             className="bg-gray-900 w-full py-3 px-4 inline-block "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              مجلس البرنامج
+              الهيكل التنظيمي للبرنامج
             </h1>
           </a>
         </div>

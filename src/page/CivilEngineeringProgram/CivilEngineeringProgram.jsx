@@ -35,7 +35,7 @@ export default function CivilEngineeringProgram() {
     { id: 17, name: " م/أحمد ماهر علي", title: "مدرس مساعد" },
     { id: 18, name: " م/عمر طلعت عبد الهادي", title: "مدرس مساعد" },
     { id: 19, name: " م/عمر هشام عبد الوهاب", title: "مدرس مساعد" },
-    { id: 20, name: " م/ميزنا أحمد حسن", title: "مدرس مساعد" },
+    { id: 20, name: " م/ميرنا أحمد حسن", title: "مدرس مساعد" },
     { id: 21, name: " م/آية علاء السيد", title: "مدرس مساعد" },
     { id: 22, name: " م/ميادة عادل محمد", title: "مدرس مساعد" },
     { id: 23, name: " م/أميرة محمد محمد", title: "مدرس مساعد" },
@@ -156,7 +156,7 @@ export default function CivilEngineeringProgram() {
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              الرؤية والرسالة والاهداف{" "}
+              الرؤية والرسالة والأهداف{" "}
             </h1>
           </div>
           <div className="container mx-auto ">
@@ -306,7 +306,7 @@ export default function CivilEngineeringProgram() {
             className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              هيئة التدريس باقسم{" "}
+              هيئة التدريس بالقسم{" "}
             </h1>
           </div>
           <div className="container mx-auto ">
@@ -360,7 +360,7 @@ export default function CivilEngineeringProgram() {
             className="bg-gray-900 w-full py-3 px-4 inline-block "
           >
             <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
-              مجلس البرنامج
+              الهيكل التنظيمي للبرنامج
             </h1>
           </a>
         </div>
