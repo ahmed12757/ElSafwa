@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import ProgramCouncilPDF from "../../pdfs/ArchitectureProgram/هيكل برنامج الهندسة المعمارية.pdf";
+import OldRegulationsPDF from "../../pdfs/ArchitectureProgram/قوائم قسم عمارة - قديم.pdf";
+import NewRegulationsPDF from "../../pdfs/ArchitectureProgram/اللائحة الجديدة-أولي-ثانية.pdf";
+import AcademicStandardsPDF from "../../pdfs/ArchitectureProgram/Architecture_Competencies.pdf";
+
 export default function ArchitectureProgram() {
   const [MenuCase1, setMenuCase1] = useState(true);
   const [MenuCase2, setMenuCase2] = useState(false);
@@ -80,6 +85,172 @@ export default function ArchitectureProgram() {
                   الهامة على مستوى التصميم والتنفيذ، وأصبح يستلزم خريجين ذوي
                   قدرات ومهارات متميزة حتى يمكنهم المنافسة في سوق العمل.{" "}
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
+          <div
+            onClick={() => {
+              setMenuCase1(false);
+              setMenuCase2(false);
+              setMenuCase3(false);
+              setMenuCase5(false);
+              setMenuCase4(!MenuCase4);
+            }}
+            className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
+          >
+            <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
+              الرؤية والرسالة والاهداف{" "}
+            </h1>
+          </div>
+          <div className="container mx-auto ">
+            <div
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase4 ? `  max-h-[9999px] ` : `max-h-0`
+              } `}
+            >
+              <div className="  py-2 px-4 font-medium text-lg h-fit">
+                <h2 className=" font-bold text-xl my-2"> رؤية البرنامج</h2>
+                <p className="px-4">
+                  يتطلع قسم الهندسة المعمارية بمعهد الصفوة العالي للهندسة أن
+                  يكون قسماً رائداً بين الأوساط الأكاديمية في مجال التعليم
+                  المعماري ومتميزاً في البحث العلمي على المستوى المحلي والدولي،
+                  وأن يقدم خدمة مجتمعية واعدة لتحسين جودة الحياة.
+                </p>
+                <h2 className=" font-bold text-xl my-2"> رسالة البرنامج </h2>
+                <p className="px-4">
+                  يلتزم برنامج الهندسة المعمارية بمعهد الصفوة العالي للهندسة
+                  بتقديم خدمة تعليمية متميزة وتخريج مهندس معماري كفء، مزود
+                  بالقدرات والمعارف والمهارات العقلية والعلمية والبحثية والفنية
+                  والمهنية والسلوكية التي تؤهله لممارسة مهنة العمارة على مستوى
+                  احترافي، والمنافسة في سوق العمل محلياً ودولياً، وتقديم خدمات
+                  متميزة للمجتمع، والارتقاء بمهنة العمارة، في إطار القيم
+                  الإنسانية والأخلاقية.
+                </p>
+                <h2 className=" font-bold text-lg mt-3">أهداف البرنامج</h2>
+                <ul className="px-6 pt-4 space-y-4">
+                  <li>
+                    <span>1-</span>
+                    تزويد الطلاب بالمعارف والعلوم النظرية والتطبيقات الحديثة
+                    المرتبطة بالعمارة وكذلك العلوم الهندسية والإنسانية المتعلقة
+                    بها والمتوافقة مع كل من احتياجات المجتمع وسوق العمل، بما
+                    يضمن التعلم الذاتي المستمر ويحقق متطلبات الاستدامة.{" "}
+                  </li>
+                  <li>
+                    <span>2-</span>
+                    تخريج مهندس معماري كفء لديه الفهم والمعرفة العلمية اللازمة
+                    لمتطلبات التخصص، بالإضافة إلى دعم قدرته على الالتزام
+                    بأخلاقيات المهنة وتقاليدها والتنافس الشريف بكل اقتدار.
+                  </li>
+                  <li>
+                    <span>3-</span>
+                    توسيع أفق الطلاب وتدريبهم وتنمية قدراتهم ومهاراتهم في كافة
+                    المجالات المرتبطة بالهندسة المعمارية.{" "}
+                  </li>
+                  <li>
+                    <span>4-</span>
+                    تدعيم قدرة الطلاب على اتباع المنهج العلمي في حل المشكلات من
+                    خلال تعريف المشكلة وجمع المعلومات اللازمة عنها وتصنيفها
+                    وتحليلها ووضع الحلول المناسبة لها لإنتاج مشروعات تصميمية
+                    معمارية وعمرانية وتخطيطية بالكفاءة والجودة الواجبة
+                    بالاستعانة بالتقنيات والأدوات المتطورة.
+                  </li>
+                  <li>
+                    <span>5-</span>
+                    إكساب الطلاب الخبرات العلمية اللازمة في مجال التصميم من خلال
+                    تدريبهم على مشروعات مشابهة للواقع ذات محددات واعتبارات
+                    مختلفة سواء كانت اقتصادية أو بيئية أو اجتماعية أو سياسية أو
+                    أمنية أو أخلاقية، وتنمية قدراتهم على المشاركة المتكاملة
+                    والفعالة مع فرق العمل لاقتراح بدائل مختلفة للحل وتقييمها
+                    لاختيار أنسبها وإعداد المستندات والرسوم اللازمة لها والإشراف
+                    على تنفيذها.{" "}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4 bg-gray-200 ">
+          <div
+            onClick={() => {
+              setMenuCase1(false);
+              setMenuCase2(false);
+              setMenuCase3(false);
+              setMenuCase5(false);
+              setMenuCase4(!MenuCase4);
+            }}
+            className="bg-gray-900 w-full py-3 px-4 cursor-pointer "
+          >
+            <h1 className="container mx-auto text-white md:text-3xl text-lg  font-bold">
+              الرؤية والرسالة والاهداف{" "}
+            </h1>
+          </div>
+          <div className="container mx-auto ">
+            <div
+              className={` gap-x-3  overflow-hidden duration-500 transition-all ${
+                MenuCase4 ? `  max-h-[9999px] ` : `max-h-0`
+              } `}
+            >
+              <div className="  py-2 px-4 font-medium text-lg h-fit">
+                <h2 className=" font-bold text-xl my-2"> رؤية البرنامج</h2>
+                <p className="px-4">
+                  يتطلع قسم الهندسة المعمارية بمعهد الصفوة العالي للهندسة أن
+                  يكون قسماً رائداً بين الأوساط الأكاديمية في مجال التعليم
+                  المعماري ومتميزاً في البحث العلمي على المستوى المحلي والدولي،
+                  وأن يقدم خدمة مجتمعية واعدة لتحسين جودة الحياة.
+                </p>
+                <h2 className=" font-bold text-xl my-2"> رسالة البرنامج </h2>
+                <p className="px-4">
+                  يلتزم برنامج الهندسة المعمارية بمعهد الصفوة العالي للهندسة
+                  بتقديم خدمة تعليمية متميزة وتخريج مهندس معماري كفء، مزود
+                  بالقدرات والمعارف والمهارات العقلية والعلمية والبحثية والفنية
+                  والمهنية والسلوكية التي تؤهله لممارسة مهنة العمارة على مستوى
+                  احترافي، والمنافسة في سوق العمل محلياً ودولياً، وتقديم خدمات
+                  متميزة للمجتمع، والارتقاء بمهنة العمارة، في إطار القيم
+                  الإنسانية والأخلاقية.
+                </p>
+                <h2 className=" font-bold text-lg mt-3">أهداف البرنامج</h2>
+                <ul className="px-6 pt-4 space-y-4">
+                  <li>
+                    <span>1-</span>
+                    تزويد الطلاب بالمعارف والعلوم النظرية والتطبيقات الحديثة
+                    المرتبطة بالعمارة وكذلك العلوم الهندسية والإنسانية المتعلقة
+                    بها والمتوافقة مع كل من احتياجات المجتمع وسوق العمل، بما
+                    يضمن التعلم الذاتي المستمر ويحقق متطلبات الاستدامة.{" "}
+                  </li>
+                  <li>
+                    <span>2-</span>
+                    تخريج مهندس معماري كفء لديه الفهم والمعرفة العلمية اللازمة
+                    لمتطلبات التخصص، بالإضافة إلى دعم قدرته على الالتزام
+                    بأخلاقيات المهنة وتقاليدها والتنافس الشريف بكل اقتدار.
+                  </li>
+                  <li>
+                    <span>3-</span>
+                    توسيع أفق الطلاب وتدريبهم وتنمية قدراتهم ومهاراتهم في كافة
+                    المجالات المرتبطة بالهندسة المعمارية.{" "}
+                  </li>
+                  <li>
+                    <span>4-</span>
+                    تدعيم قدرة الطلاب على اتباع المنهج العلمي في حل المشكلات من
+                    خلال تعريف المشكلة وجمع المعلومات اللازمة عنها وتصنيفها
+                    وتحليلها ووضع الحلول المناسبة لها لإنتاج مشروعات تصميمية
+                    معمارية وعمرانية وتخطيطية بالكفاءة والجودة الواجبة
+                    بالاستعانة بالتقنيات والأدوات المتطورة.
+                  </li>
+                  <li>
+                    <span>5-</span>
+                    إكساب الطلاب الخبرات العلمية اللازمة في مجال التصميم من خلال
+                    تدريبهم على مشروعات مشابهة للواقع ذات محددات واعتبارات
+                    مختلفة سواء كانت اقتصادية أو بيئية أو اجتماعية أو سياسية أو
+                    أمنية أو أخلاقية، وتنمية قدراتهم على المشاركة المتكاملة
+                    والفعالة مع فرق العمل لاقتراح بدائل مختلفة للحل وتقييمها
+                    لاختيار أنسبها وإعداد المستندات والرسوم اللازمة لها والإشراف
+                    على تنفيذها.{" "}
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -286,7 +457,7 @@ export default function ArchitectureProgram() {
 
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
           <a
-            href=""
+            href={ProgramCouncilPDF}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-900 w-full py-3 px-4 inline-block "
@@ -323,11 +494,13 @@ export default function ArchitectureProgram() {
                   <ul className="px-4 pt-4 w-full space-y-5">
                     <li className="flex flex-col gap-1 w-full items-center ">
                       <a
-                        href=""
+                        href={OldRegulationsPDF}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex items-center flex-col gap-1 w-fit"
                       >
                         <div className=" text-5xl font-bold text-red-500 ">
-                          <i class="fa-regular fa-file-pdf"></i>
+                          <i className="fa-regular fa-file-pdf"></i>
                         </div>
                         <p className="text-lg font-bold"> اللائحة القديمة </p>
                       </a>
@@ -335,11 +508,13 @@ export default function ArchitectureProgram() {
                     <hr className=" border-t-2 border-dotted border-gray-700" />
                     <li className="flex flex-col gap-1 w-full items-center ">
                       <a
-                        href=""
+                        href={NewRegulationsPDF}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex items-center flex-col gap-1 w-fit"
                       >
                         <div className=" text-5xl font-bold text-red-500 ">
-                          <i class="fa-regular fa-file-pdf"></i>
+                          <i className="fa-regular fa-file-pdf"></i>
                         </div>
                         <p className="text-lg font-bold">اللائحة الجديدة </p>
                       </a>
@@ -353,7 +528,7 @@ export default function ArchitectureProgram() {
 
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl ">
           <a
-            href=""
+            href={AcademicStandardsPDF}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-900 w-full py-3 px-4 inline-block "

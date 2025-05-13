@@ -21,6 +21,7 @@
 }
 body {
   font-family: "Cairo Variable", sans-serif;
+  font-size: 1.25rem;
 }
 @layer utilities {
   .spin-slow {

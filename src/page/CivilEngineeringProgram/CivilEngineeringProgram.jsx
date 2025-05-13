@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import ProgramCouncilPDF from "../../pdfs/CivilEngineeringProgram/الهيكل التنظيمي للبرنامج.pdf";
+import OldRegulationsPDF from "../../pdfs/CivilEngineeringProgram/قوائم قسم مدني - قديم.pdf";
+import NewRegulationsPDF from "../../pdfs/CivilEngineeringProgram/مقررات اللائحة الجديدة.pdf";
+import AcademicStandardsPDF from "../../pdfs/CivilEngineeringProgram/Civil Competencies.pdf";
 
 export default function CivilEngineeringProgram() {
   const [MenuCase1, setMenuCase1] = useState(true);
@@ -350,7 +354,7 @@ export default function CivilEngineeringProgram() {
 
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl mb-4">
           <a
-            href=""
+            href={ProgramCouncilPDF}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-900 w-full py-3 px-4 inline-block "
@@ -387,11 +391,13 @@ export default function CivilEngineeringProgram() {
                   <ul className="px-4 pt-4 w-full space-y-5">
                     <li className="flex flex-col gap-1 w-full items-center ">
                       <a
-                        href=""
+                        href={OldRegulationsPDF}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex items-center flex-col gap-1 w-fit"
                       >
                         <div className=" text-5xl font-bold text-red-500 ">
-                          <i class="fa-regular fa-file-pdf"></i>
+                          <i className="fa-regular fa-file-pdf"></i>
                         </div>
                         <p className="text-lg font-bold"> اللائحة القديمة </p>
                       </a>
@@ -399,11 +405,13 @@ export default function CivilEngineeringProgram() {
                     <hr className=" border-t-2 border-dotted border-gray-700" />
                     <li className="flex flex-col gap-1 w-full items-center ">
                       <a
-                        href=""
+                        href={NewRegulationsPDF}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex items-center flex-col gap-1 w-fit"
                       >
                         <div className=" text-5xl font-bold text-red-500 ">
-                          <i class="fa-regular fa-file-pdf"></i>
+                          <i className="fa-regular fa-file-pdf"></i>
                         </div>
                         <p className="text-lg font-bold">اللائحة الجديدة </p>
                       </a>
@@ -417,7 +425,7 @@ export default function CivilEngineeringProgram() {
 
         <div className=" container  rounded-2xl overflow-hidden mx-auto shadow-2xl ">
           <a
-            href=""
+            href={AcademicStandardsPDF}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-900 w-full py-3 px-4 inline-block "

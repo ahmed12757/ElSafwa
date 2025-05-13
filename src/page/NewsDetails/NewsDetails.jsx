@@ -10,7 +10,11 @@ const images = [
   "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
   "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80",
   "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80"
+  "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
 ];
 
 export default function NewsDetails() {
@@ -26,7 +30,8 @@ export default function NewsDetails() {
               عنوان الخبر الرئيسي
             </h2>
             <p className="text-lg sm:text-xl font-medium text-gray-700 text-center lg:text-right w-full leading-relaxed tracking-wide ">
-              مناقشة مشاريع مادة نظم التحكم (١) الفرقة الثالثة قسم هندسة الحاسبات تحت إشراف: د/ فاطمة عبدالوهاب، م/ عبير سعيد
+              مناقشة مشاريع مادة نظم التحكم (١) الفرقة الثالثة قسم هندسة
+              الحاسبات تحت إشراف: د/ فاطمة عبدالوهاب، م/ عبير سعيد
             </p>
             <div className="flex flex-col items-center lg:items-start mb-2 sm:mb-3 lg:mb-4">
               <a
@@ -55,7 +60,6 @@ export default function NewsDetails() {
             </div>
           </div>
           <div className="col-span-12 lg:col-span-5 flex flex-col items-center justify-center mt-6 lg:mt-0 h-full lg:w-1/3">
-            {/* Main Image Swiper */}
             <Swiper
               spaceBetween={5}
               thumbs={{ swiper: thumbsSwiper }}
@@ -73,12 +77,11 @@ export default function NewsDetails() {
                 </SwiperSlide>
               ))}
             </Swiper>
-            {/* Thumbnails Swiper */}
-            <div className="w-64 sm:w-80 lg:w-96 flex justify-center mx-auto">
+            <div className="w-64 sm:w-80 lg:w-96 flex justify-center mx-auto items-center">
               <Swiper
                 onSwiper={setThumbsSwiper}
-                spaceBetween={5}
-                slidesPerView={Math.min(images.length, 4)}
+                spaceBetween={10}
+                slidesPerView={Math.min(images.length, 5)}
                 watchSlidesProgress
                 modules={[Thumbs]}
                 className="w-full"
@@ -88,7 +91,7 @@ export default function NewsDetails() {
                     <img
                       src={img}
                       alt={`news-thumb-${idx}`}
-                      className="w-16 h-16 object-cover rounded-md border border-gray-300 cursor-pointer"
+                      className="w-16 h-16 object-cover rounded-md border border-gray-300 cursor-pointer mx-auto"
                     />
                   </SwiperSlide>
                 ))}
